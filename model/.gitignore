@@ -1,0 +1,36 @@
+# Ignore large model artifacts and training outputs
+
+# Trained model weights and checkpoints
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Trainer/runtime artifacts
+fine-tuned-model/
+results/
+checkpoints/
+runs/
+wandb/
+logs/
+tensorboard/
+output/
+outputs/
+cache/
+.cache/
+
+# Misc large or generated files
+*.zip
+*.tar
+*.tar.gz
+*.gz
+*.bz2
+*.xz
+*.log
+
+# OS/editor noise (scoped here just in case)
+.DS_Store
+*.swp
+*.swo

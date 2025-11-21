@@ -1,0 +1,4 @@
+# Project-level ignores
+
+# Ignore packaged model archive at repo root
+model.zip

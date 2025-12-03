@@ -14,7 +14,7 @@ This repository contains the code, data, and results for the CodeT5 model used i
   - `codet5_fine_tuned/`: Experimental fine-tuned versions of CodeT5.
 
 - **`scripts/`**: Contains scripts for training, evaluation, and visualization.
-  - `training/`: Scripts for training the model (e.g., `train_codet5_cpu.py`).
+  - `training/`: Scripts for training the model (e.g., `train_codet5.py`).
   - `evaluation/`: Scripts for evaluating the model on different datasets (e.g., `evaluate_codet5.py`, `evaluate_easy.py`).
   - `visualization/`: Scripts for generating plots and visualizing results (e.g., `visualize_results.py`).
 
@@ -37,10 +37,16 @@ To try out the model, please download the weights from the following link:
    *(Note: You might need to adjust the path in the script if it differs)*
 
 ### Training
-To train the model, use the script in `scripts/training/`:
+To train the model, use the script in `scripts/training/`. The script automatically detects and uses a GPU (CUDA or MPS) if available.
+
 ```bash
-python scripts/training/train_codet5_cpu.py
+python scripts/training/train_codet5.py
 ```
+
+**Note on GPU Training:**
+- Ensure you have a GPU-compatible version of PyTorch installed.
+- The script checks for `cuda` (NVIDIA) and `mps` (Apple Silicon) availability.
+
 
 ### Evaluation
 To evaluate the model, run the scripts in `scripts/evaluation/`:

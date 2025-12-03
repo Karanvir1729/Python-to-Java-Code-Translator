@@ -1,0 +1,338 @@
+python,reference,prediction
+"def greet():
+    print(""hello"")","public static void greet() {
+    System.out.println(""hello"");
+}","import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Main {
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String str = br.readLine();
+		while (true) {
+			if (str.equals(""hello"")) break;
+			System.out.println(""hello"");
+			}
+		System.out.println(""hello"");
+		}
+"
+"def set_value():
+    x = 5
+    return x","public static int setValue() {
+    int x = 5;
+    return x;
+}","import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String line = br.readLine();
+		String[] words = br.readLine().split("" "");
+		for (int i = 0; i < 5; i++) {
+			words[i] = Integer."
+"def set_pi():
+    y = 3.14
+    return y","public static double setPi() {
+    double y = 3.14;
+    return y;
+}","import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String line = br.readLine();
+		String[] words = br.readLine().split("" "");
+		for (int i = 0; i < words.length; i++) {
+			words[i] ="
+"def set_name():
+    name = ""Alice""
+    return name","public static String setName() {
+    String name = ""Alice"";
+    return name;
+}","import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String str = br.readLine();
+		String[] alice = br.readLine().split("" "");
+		for (int i = 0; i < alice.length; i++) {
+			alice["
+"def check_valid():
+    is_valid = True
+    return is_valid","public static boolean checkValid() {
+    boolean isValid = true;
+    return isValid;
+}","import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String line = br.readLine();
+		while (true) {
+			line = Integer.parseInt(line.readLine());
+			if (line.isEmpty()) {
+				break;
+			}"
+"def add_numbers():
+    result = 10 + 5
+    return result","public static int addNumbers() {
+    int result = 10 + 5;
+    return result;
+}","import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String line = br.readLine();
+		int n = Integer.parseInt(line);
+		for (int i = 0; i < n; i++) {
+			line = Integer.parseInt(line);"
+"def subtract_numbers():
+    difference = 20 - 8
+    return difference","public static int subtractNumbers() {
+    int difference = 20 - 8;
+    return difference;
+}","import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int[] a = new int[n];
+		for (int i = 0; i < n; i++) {
+			a[i] = sc.nextInt();
+		}
+		System.out.println(a[i]);
+	}
+}"
+"def multiply_numbers():
+    product = 4 * 7
+    return product","public static int multiplyNumbers() {
+    int product = 4 * 7;
+    return product;
+}","import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int[] a = new int[n];
+		for (int i = 0; i < n; i++) {
+			a[i] = sc.nextInt();
+		}
+		System.out.println(a[i]);
+	}
+	}
+"
+"def divide_numbers():
+    quotient = 15 / 3
+    return quotient","public static int divideNumbers() {
+    int quotient = 15 / 3;
+    return quotient;
+}","import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int[] a = new int[n];
+		for (int i = 0; i < n; i++) {
+			a[i] = sc.nextInt();
+		}
+		for (int i = 0; i < n; i++) {
+			a[i] = sc.nextInt();
+"
+"def get_remainder():
+    remainder = 17 % 5
+    return remainder","public static int getRemainder() {
+    int remainder = 17 % 5;
+    return remainder;
+}","import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int n = Integer.parseInt(br.readLine());
+		if (n % 5 == 0) {
+			System.out.println(17 % 5);
+		} else {
+				System.out."
+"if x > 0:
+    print(""positive"")","if (x > 0) {
+    System.out.println(""positive"");
+}","import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		System.out.println(""positive"");
+	}
+}"
+"if x < 0:
+    print(""negative"")
+else:
+    print(""non-negative"")","if (x < 0) {
+    System.out.println(""negative"");
+} else {
+    System.out.println(""non-negative"");
+}","import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		if (x < 0) {
+			System.out.println(""negative"");
+		} else {
+				System.out.println(""non-negative"");
+		}
+	}
+}"
+"for i in range(5):
+    print(i)","for (int i = 0; i < 5; i++) {
+    System.out.println(i);
+}","import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		for (int i = 0; i < 5; i++) {
+			if (n == 5) {
+				break;
+			}
+			System.out.println(i);
+		}
+	}
+}"
+"i = 0
+while i < 3:
+    print(i)
+    i += 1","int i = 0;
+while (i < 3) {
+    System.out.println(i);
+    i++;
+}","import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		while(true){
+			int n = sc.nextInt();
+			if(n == 3){
+				break;
+			}
+			System.out.println(n);
+		}
+	}
+"
+"numbers = [1, 2, 3, 4, 5]","int[] numbers = {1, 2, 3, 4, 5};","import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int[] a = new int[n];
+		for (int i = 0; i < n; i++) {
+			a[i] = sc.nextInt();
+			}
+		System.out.println(a[i]);
+		}
+		System.out.println(a"
+"fruits = [""apple"", ""banana"", ""cherry""]","String[] fruits = {""apple"", ""banana"", ""cherry""};","import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String s = br.readLine();
+		for (int i = 0; i < s.length(); i++) {
+			s[i] = Integer.parseInt(s[i]);
+		}
+		"
+first = numbers[0],int first = numbers[0];,"import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String line = br.readLine();
+		String[] words = br.readLine().split("" "");
+		for (int i = 0; i < words.length; i++) {
+			words[i] ="
+length = len(numbers),int length = numbers.length;,"import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String[] numbers = br.readLine().split("" "");
+		int n = Integer.parseInt(numbers[0]);
+		for (int i = 0; i < n; i++) {
+			numbers[i"
+"def greet():
+    print(""Hello!"")","public static void greet() {
+    System.out.println(""Hello!"");
+}","import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String line = br.readLine();
+		while (true) {
+			line = Integer.parseInt(line.readLine());
+			if (line.equals(""Hello""))
+				System.out.println"
+"def add(a, b):
+    return a + b","public static int add(int a, int b) {
+    return a + b;
+}","import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		System.out.println(a + b);
+	}
+}"

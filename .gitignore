@@ -1,4 +1,24 @@
-# Project-level ignores
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
 
-# Ignore packaged model archive at repo root
-model.zip
+# Mac
+.DS_Store
+
+# Large Files & Models
+*.zip
+*.tar.gz
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.h5
+bigcodenet_pairs.json
+bigcodenet_evaluation_results.csv
+
+# IDE
+.vscode/
+.idea/

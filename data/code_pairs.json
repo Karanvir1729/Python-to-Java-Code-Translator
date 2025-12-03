@@ -1,0 +1,4002 @@
+[
+  {
+    "python": "def greet():\n    print(\"hello\")",
+    "java": "public static void greet() {\n    System.out.println(\"hello\");\n}"
+  },
+  {
+    "python": "def set_value():\n    x = 5\n    return x",
+    "java": "public static int setValue() {\n    int x = 5;\n    return x;\n}"
+  },
+  {
+    "python": "def set_pi():\n    y = 3.14\n    return y",
+    "java": "public static double setPi() {\n    double y = 3.14;\n    return y;\n}"
+  },
+  {
+    "python": "def set_name():\n    name = \"Alice\"\n    return name",
+    "java": "public static String setName() {\n    String name = \"Alice\";\n    return name;\n}"
+  },
+  {
+    "python": "def check_valid():\n    is_valid = True\n    return is_valid",
+    "java": "public static boolean checkValid() {\n    boolean isValid = true;\n    return isValid;\n}"
+  },
+  {
+    "python": "def add_numbers():\n    result = 10 + 5\n    return result",
+    "java": "public static int addNumbers() {\n    int result = 10 + 5;\n    return result;\n}"
+  },
+  {
+    "python": "def subtract_numbers():\n    difference = 20 - 8\n    return difference",
+    "java": "public static int subtractNumbers() {\n    int difference = 20 - 8;\n    return difference;\n}"
+  },
+  {
+    "python": "def multiply_numbers():\n    product = 4 * 7\n    return product",
+    "java": "public static int multiplyNumbers() {\n    int product = 4 * 7;\n    return product;\n}"
+  },
+  {
+    "python": "def divide_numbers():\n    quotient = 15 / 3\n    return quotient",
+    "java": "public static int divideNumbers() {\n    int quotient = 15 / 3;\n    return quotient;\n}"
+  },
+  {
+    "python": "def get_remainder():\n    remainder = 17 % 5\n    return remainder",
+    "java": "public static int getRemainder() {\n    int remainder = 17 % 5;\n    return remainder;\n}"
+  },
+  {
+    "python": "if x > 0:\n    print(\"positive\")",
+    "java": "if (x > 0) {\n    System.out.println(\"positive\");\n}"
+  },
+  {
+    "python": "if x < 0:\n    print(\"negative\")\nelse:\n    print(\"non-negative\")",
+    "java": "if (x < 0) {\n    System.out.println(\"negative\");\n} else {\n    System.out.println(\"non-negative\");\n}"
+  },
+  {
+    "python": "for i in range(5):\n    print(i)",
+    "java": "for (int i = 0; i < 5; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "i = 0\nwhile i < 3:\n    print(i)\n    i += 1",
+    "java": "int i = 0;\nwhile (i < 3) {\n    System.out.println(i);\n    i++;\n}"
+  },
+  {
+    "python": "numbers = [1, 2, 3, 4, 5]",
+    "java": "int[] numbers = {1, 2, 3, 4, 5};"
+  },
+  {
+    "python": "fruits = [\"apple\", \"banana\", \"cherry\"]",
+    "java": "String[] fruits = {\"apple\", \"banana\", \"cherry\"};"
+  },
+  {
+    "python": "first = numbers[0]",
+    "java": "int first = numbers[0];"
+  },
+  {
+    "python": "length = len(numbers)",
+    "java": "int length = numbers.length;"
+  },
+  {
+    "python": "def greet():\n    print(\"Hello!\")",
+    "java": "public static void greet() {\n    System.out.println(\"Hello!\");\n}"
+  },
+  {
+    "python": "def add(a, b):\n    return a + b",
+    "java": "public static int add(int a, int b) {\n    return a + b;\n}"
+  },
+  {
+    "python": "def square(n):\n    return n * n",
+    "java": "public static int square(int n) {\n    return n * n;\n}"
+  },
+  {
+    "python": "max_val = max(10, 20)",
+    "java": "int maxVal = Math.max(10, 20);"
+  },
+  {
+    "python": "min_val = min(10, 20)",
+    "java": "int minVal = Math.min(10, 20);"
+  },
+  {
+    "python": "abs_val = abs(-15)",
+    "java": "int absVal = Math.abs(-15);"
+  },
+  {
+    "python": "import math\nsqrt_val = math.sqrt(16)",
+    "java": "double sqrtVal = Math.sqrt(16);"
+  },
+  {
+    "python": "import math\npower = math.pow(2, 3)",
+    "java": "double power = Math.pow(2, 3);"
+  },
+  {
+    "python": "text = \"hello world\"",
+    "java": "String text = \"hello world\";"
+  },
+  {
+    "python": "upper_text = text.upper()",
+    "java": "String upperText = text.toUpperCase();"
+  },
+  {
+    "python": "lower_text = text.lower()",
+    "java": "String lowerText = text.toLowerCase();"
+  },
+  {
+    "python": "text_length = len(text)",
+    "java": "int textLength = text.length();"
+  },
+  {
+    "python": "substring = text[0:5]",
+    "java": "String substring = text.substring(0, 5);"
+  },
+  {
+    "python": "contains = \"hello\" in text",
+    "java": "boolean contains = text.contains(\"hello\");"
+  },
+  {
+    "python": "replaced = text.replace(\"world\", \"there\")",
+    "java": "String replaced = text.replace(\"world\", \"there\");"
+  },
+  {
+    "python": "parts = text.split(\" \")",
+    "java": "String[] parts = text.split(\" \");"
+  },
+  {
+    "python": "joined = \"-\".join([\"a\", \"b\", \"c\"])",
+    "java": "String joined = String.join(\"-\", \"a\", \"b\", \"c\");"
+  },
+  {
+    "python": "stripped = \"  hello  \".strip()",
+    "java": "String stripped = \"  hello  \".trim();"
+  },
+  {
+    "python": "starts = text.startswith(\"hello\")",
+    "java": "boolean starts = text.startsWith(\"hello\");"
+  },
+  {
+    "python": "ends = text.endswith(\"world\")",
+    "java": "boolean ends = text.endsWith(\"world\");"
+  },
+  {
+    "python": "index = text.find(\"world\")",
+    "java": "int index = text.indexOf(\"world\");"
+  },
+  {
+    "python": "count = text.count(\"l\")",
+    "java": "int count = text.length() - text.replace(\"l\", \"\").length();"
+  },
+  {
+    "python": "for item in fruits:\n    print(item)",
+    "java": "for (String item : fruits) {\n    System.out.println(item);\n}"
+  },
+  {
+    "python": "squared = [x**2 for x in range(5)]",
+    "java": "int[] squared = new int[5];\nfor (int i = 0; i < 5; i++) {\n    squared[i] = i * i;\n}"
+  },
+  {
+    "python": "evens = [x for x in range(10) if x % 2 == 0]",
+    "java": "java.util.List<Integer> evens = new java.util.ArrayList<>();\nfor (int x = 0; x < 10; x++) {\n    if (x % 2 == 0) evens.add(x);\n}"
+  },
+  {
+    "python": "numbers.append(6)",
+    "java": "java.util.List<Integer> numbers = new java.util.ArrayList<>(java.util.Arrays.asList(1, 2, 3, 4, 5));\nnumbers.add(6);"
+  },
+  {
+    "python": "numbers.remove(3)",
+    "java": "numbers.remove(Integer.valueOf(3));"
+  },
+  {
+    "python": "sum_val = sum(numbers)",
+    "java": "int sumVal = numbers.stream().mapToInt(Integer::intValue).sum();"
+  },
+  {
+    "python": "person = {\"name\": \"Bob\", \"age\": 25}",
+    "java": "java.util.Map<String, Object> person = new java.util.HashMap<>();\nperson.put(\"name\", \"Bob\");\nperson.put(\"age\", 25);"
+  },
+  {
+    "python": "name = person[\"name\"]",
+    "java": "String name = (String) person.get(\"name\");"
+  },
+  {
+    "python": "person[\"city\"] = \"NYC\"",
+    "java": "person.put(\"city\", \"NYC\");"
+  },
+  {
+    "python": "keys = person.keys()",
+    "java": "java.util.Set<String> keys = person.keySet();"
+  },
+  {
+    "python": "values = person.values()",
+    "java": "java.util.Collection<Object> values = person.values();"
+  },
+  {
+    "python": "has_key = \"name\" in person",
+    "java": "boolean hasKey = person.containsKey(\"name\");"
+  },
+  {
+    "python": "class Person:\n    def __init__(self, name):\n        self.name = name",
+    "java": "public class Person {\n    private String name;\n    public Person(String name) {\n        this.name = name;\n    }\n}"
+  },
+  {
+    "python": "class Dog:\n    def bark(self):\n        print(\"Woof!\")",
+    "java": "public class Dog {\n    public void bark() {\n        System.out.println(\"Woof!\");\n    }\n}"
+  },
+  {
+    "python": "dog = Dog()",
+    "java": "Dog dog = new Dog();"
+  },
+  {
+    "python": "try:\n    x = 1 / 0\nexcept:\n    print(\"Error\")",
+    "java": "try {\n    int x = 1 / 0;\n} catch (Exception e) {\n    System.out.println(\"Error\");\n}"
+  },
+  {
+    "python": "try:\n    x = int(\"abc\")\nexcept ValueError:\n    print(\"Invalid\")",
+    "java": "try {\n    int x = Integer.parseInt(\"abc\");\n} catch (NumberFormatException e) {\n    System.out.println(\"Invalid\");\n}"
+  },
+  {
+    "python": "import random\nrand_num = random.randint(1, 10)",
+    "java": "int randNum = (int)(Math.random() * 10) + 1;"
+  },
+  {
+    "python": "import random\nrand_choice = random.choice([1, 2, 3])",
+    "java": "int[] choices = {1, 2, 3};\nint randChoice = choices[(int)(Math.random() * choices.length)];"
+  },
+  {
+    "python": "import time\ntime.sleep(1)",
+    "java": "try {\n    Thread.sleep(1000);\n} catch (InterruptedException e) {\n    e.printStackTrace();\n}"
+  },
+  {
+    "python": "import datetime\nnow = datetime.datetime.now()",
+    "java": "java.time.LocalDateTime now = java.time.LocalDateTime.now();"
+  },
+  {
+    "python": "with open(\"file.txt\", \"r\") as f:\n    content = f.read()",
+    "java": "try (java.io.BufferedReader br = new java.io.BufferedReader(new java.io.FileReader(\"file.txt\"))) {\n    String content = br.readLine();\n} catch (java.io.IOException e) {\n    e.printStackTrace();\n}"
+  },
+  {
+    "python": "with open(\"file.txt\", \"w\") as f:\n    f.write(\"Hello\")",
+    "java": "try (java.io.FileWriter fw = new java.io.FileWriter(\"file.txt\")) {\n    fw.write(\"Hello\");\n} catch (java.io.IOException e) {\n    e.printStackTrace();\n}"
+  },
+  {
+    "python": "is_equal = (5 == 5)",
+    "java": "boolean isEqual = (5 == 5);"
+  },
+  {
+    "python": "is_not_equal = (5 != 3)",
+    "java": "boolean isNotEqual = (5 != 3);"
+  },
+  {
+    "python": "is_greater = (10 > 5)",
+    "java": "boolean isGreater = (10 > 5);"
+  },
+  {
+    "python": "is_less = (3 < 7)",
+    "java": "boolean isLess = (3 < 7);"
+  },
+  {
+    "python": "is_greater_equal = (5 >= 5)",
+    "java": "boolean isGreaterEqual = (5 >= 5);"
+  },
+  {
+    "python": "is_less_equal = (4 <= 6)",
+    "java": "boolean isLessEqual = (4 <= 6);"
+  },
+  {
+    "python": "and_result = True and False",
+    "java": "boolean andResult = true && false;"
+  },
+  {
+    "python": "or_result = True or False",
+    "java": "boolean orResult = true || false;"
+  },
+  {
+    "python": "not_result = not True",
+    "java": "boolean notResult = !true;"
+  },
+  {
+    "python": "ternary = \"yes\" if x > 0 else \"no\"",
+    "java": "String ternary = (x > 0) ? \"yes\" : \"no\";"
+  },
+  {
+    "python": "x += 5",
+    "java": "x += 5;"
+  },
+  {
+    "python": "x -= 3",
+    "java": "x -= 3;"
+  },
+  {
+    "python": "x *= 2",
+    "java": "x *= 2;"
+  },
+  {
+    "python": "x /= 4",
+    "java": "x /= 4;"
+  },
+  {
+    "python": "x %= 3",
+    "java": "x %= 3;"
+  },
+  {
+    "python": "x = x + 1",
+    "java": "x = x + 1;"
+  },
+  {
+    "python": "x += 1",
+    "java": "x++;"
+  },
+  {
+    "python": "x -= 1",
+    "java": "x--;"
+  },
+  {
+    "python": "nums = list(range(1, 6))",
+    "java": "int[] nums = {1, 2, 3, 4, 5};"
+  },
+  {
+    "python": "reversed_nums = list(reversed(nums))",
+    "java": "int[] reversedNums = new int[nums.length];\nfor (int i = 0; i < nums.length; i++) {\n    reversedNums[i] = nums[nums.length - 1 - i];\n}"
+  },
+  {
+    "python": "sorted_nums = sorted([3, 1, 4, 1, 5])",
+    "java": "int[] sortedNums = {3, 1, 4, 1, 5};\njava.util.Arrays.sort(sortedNums);"
+  },
+  {
+    "python": "def is_even(n):\n    return n % 2 == 0",
+    "java": "public static boolean isEven(int n) {\n    return n % 2 == 0;\n}"
+  },
+  {
+    "python": "def factorial(n):\n    if n == 0:\n        return 1\n    return n * factorial(n - 1)",
+    "java": "public static int factorial(int n) {\n    if (n == 0) return 1;\n    return n * factorial(n - 1);\n}"
+  },
+  {
+    "python": "lambda_func = lambda x: x * 2",
+    "java": "java.util.function.Function<Integer, Integer> lambdaFunc = x -> x * 2;"
+  },
+  {
+    "python": "filtered = list(filter(lambda x: x > 5, [3, 6, 2, 8]))",
+    "java": "java.util.List<Integer> filtered = java.util.Arrays.asList(3, 6, 2, 8).stream()\n    .filter(x -> x > 5)\n    .collect(java.util.stream.Collectors.toList());"
+  },
+  {
+    "python": "mapped = list(map(lambda x: x * 2, [1, 2, 3]))",
+    "java": "java.util.List<Integer> mapped = java.util.Arrays.asList(1, 2, 3).stream()\n    .map(x -> x * 2)\n    .collect(java.util.stream.Collectors.toList());"
+  },
+  {
+    "python": "print(f\"Value: {x}\")",
+    "java": "System.out.println(\"Value: \" + x);"
+  },
+  {
+    "python": "print(f\"Sum: {a + b}\")",
+    "java": "System.out.println(\"Sum: \" + (a + b));"
+  },
+  {
+    "python": "user_input = input(\"Enter name: \")",
+    "java": "java.util.Scanner scanner = new java.util.Scanner(System.in);\nSystem.out.print(\"Enter name: \");\nString userInput = scanner.nextLine();"
+  },
+  {
+    "python": "num_input = int(input(\"Enter number: \"))",
+    "java": "System.out.print(\"Enter number: \");\nint numInput = scanner.nextInt();"
+  },
+  {
+    "python": "my_set = {1, 2, 3, 4, 5}",
+    "java": "java.util.Set<Integer> mySet = new java.util.HashSet<>(java.util.Arrays.asList(1, 2, 3, 4, 5));"
+  },
+  {
+    "python": "my_set.add(6)",
+    "java": "mySet.add(6);"
+  },
+  {
+    "python": "my_set.remove(3)",
+    "java": "mySet.remove(3);"
+  },
+  {
+    "python": "has_element = 5 in my_set",
+    "java": "boolean hasElement = mySet.contains(5);"
+  },
+  {
+    "python": "set_size = len(my_set)",
+    "java": "int setSize = mySet.size();"
+  },
+  {
+    "python": "my_tuple = (1, 2, 3)",
+    "java": "// Java doesn't have tuples, use array or custom class\nint[] myTuple = {1, 2, 3};"
+  },
+  {
+    "python": "first, second = 1, 2",
+    "java": "int first = 1;\nint second = 2;"
+  },
+  {
+    "python": "a, b = b, a",
+    "java": "int temp = a;\na = b;\nb = temp;"
+  },
+  {
+    "python": "x = 10\nif x > 5:\n    print(\"High\")\nelif x > 2:\n    print(\"Medium\")\nelse:\n    print(\"Low\")",
+    "java": "int x = 10;\nif (x > 5) {\n    System.out.println(\"High\");\n} else if (x > 2) {\n    System.out.println(\"Medium\");\n} else {\n    System.out.println(\"Low\");\n}"
+  },
+  {
+    "python": "for i in range(10, 0, -1):\n    print(i)",
+    "java": "for (int i = 10; i > 0; i--) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "items = [\"a\", \"b\", \"c\"]\nfor idx, item in enumerate(items):\n    print(f\"{idx}: {item}\")",
+    "java": "String[] items = {\"a\", \"b\", \"c\"};\nfor (int idx = 0; idx < items.length; idx++) {\n    System.out.println(idx + \": \" + items[idx]);\n}"
+  },
+  {
+    "python": "matrix = [[1, 2], [3, 4]]\nval = matrix[1][0]",
+    "java": "int[][] matrix = {{1, 2}, {3, 4}};\nint val = matrix[1][0];"
+  },
+  {
+    "python": "try:\n    with open(\"data.txt\", \"r\") as f:\n        line = f.readline()\nexcept IOError:\n    print(\"File error\")",
+    "java": "try (java.io.BufferedReader br = new java.io.BufferedReader(new java.io.FileReader(\"data.txt\"))) {\n    String line = br.readLine();\n} catch (java.io.IOException e) {\n    System.out.println(\"File error\");\n}"
+  },
+  {
+    "python": "import math\nhyp = math.hypot(3, 4)",
+    "java": "double hyp = Math.hypot(3, 4);"
+  },
+  {
+    "python": "s = \"  abc  \"\nclean = s.strip().upper()",
+    "java": "String s = \"  abc  \";\nString clean = s.trim().toUpperCase();"
+  },
+  {
+    "python": "vals = [1, 2, 3]\nvals.reverse()",
+    "java": "java.util.List<Integer> vals = new java.util.ArrayList<>(java.util.Arrays.asList(1, 2, 3));\njava.util.Collections.reverse(vals);"
+  },
+  {
+    "python": "d = {\"a\": 1, \"b\": 2}\nval = d.get(\"c\", 0)",
+    "java": "java.util.Map<String, Integer> d = new java.util.HashMap<>();\nd.put(\"a\", 1);\nd.put(\"b\", 2);\nint val = d.getOrDefault(\"c\", 0);"
+  },
+  {
+    "python": "while True:\n    break",
+    "java": "while (true) {\n    break;\n}"
+  },
+  {
+    "python": "def calculate_area(radius):\n    return 3.14 * radius * radius",
+    "java": "public static double calculateArea(double radius) {\n    return 3.14 * radius * radius;\n}"
+  },
+  {
+    "python": "def is_prime(n):\n    if n <= 1: return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0: return False\n    return True",
+    "java": "public static boolean isPrime(int n) {\n    if (n <= 1) return false;\n    for (int i = 2; i <= Math.sqrt(n); i++) {\n        if (n % i == 0) return false;\n    }\n    return true;\n}"
+  },
+  {
+    "python": "names = [\"John\", \"Jane\"]\njoined = \", \".join(names)",
+    "java": "java.util.List<String> names = java.util.Arrays.asList(\"John\", \"Jane\");\nString joined = String.join(\", \", names);"
+  },
+  {
+    "python": "x = 5\ny = 10\nmax_val = x if x > y else y",
+    "java": "int x = 5;\nint y = 10;\nint maxVal = (x > y) ? x : y;"
+  },
+  {
+    "python": "import random\ncoin = \"Heads\" if random.random() > 0.5 else \"Tails\"",
+    "java": "String coin = (Math.random() > 0.5) ? \"Heads\" : \"Tails\";"
+  },
+  {
+    "python": "text = \"apple,banana,cherry\"\nfruits = text.split(\",\")",
+    "java": "String text = \"apple,banana,cherry\";\nString[] fruits = text.split(\",\");"
+  },
+  {
+    "python": "for i in range(5):\n    if i == 3:\n        continue\n    print(i)",
+    "java": "for (int i = 0; i < 5; i++) {\n    if (i == 3) continue;\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "x = None\nif x is None:\n    x = 0",
+    "java": "Integer x = null;\nif (x == null) {\n    x = 0;\n}"
+  },
+  {
+    "python": "s = \"Hello\"\nchar = s[1]",
+    "java": "String s = \"Hello\";\nchar c = s.charAt(1);"
+  },
+  {
+    "python": "arr = [1, 2, 3]\narr[0] = 10",
+    "java": "int[] arr = {1, 2, 3};\narr[0] = 10;"
+  },
+  {
+    "python": "def fib(n):\n    if n <= 1: return n\n    return fib(n-1) + fib(n-2)",
+    "java": "public static int fib(int n) {\n    if (n <= 1) return n;\n    return fib(n-1) + fib(n-2);\n}"
+  },
+  {
+    "python": "total = 0\nfor x in [1, 2, 3]:\n    total += x",
+    "java": "int total = 0;\nfor (int x : new int[]{1, 2, 3}) {\n    total += x;\n}"
+  },
+  {
+    "python": "import time\nstart = time.time()",
+    "java": "long start = System.currentTimeMillis();"
+  },
+  {
+    "python": "print(\"Error\", file=sys.stderr)",
+    "java": "System.err.println(\"Error\");"
+  },
+  {
+    "python": "x = int(\"123\")",
+    "java": "int x = Integer.parseInt(\"123\");"
+  },
+  {
+    "python": "f = float(\"3.14\")",
+    "java": "double f = Double.parseDouble(\"3.14\");"
+  },
+  {
+    "python": "s = str(123)",
+    "java": "String s = String.valueOf(123);"
+  },
+  {
+    "python": "valid = True\nif not valid:\n    print(\"Invalid\")",
+    "java": "boolean valid = true;\nif (!valid) {\n    System.out.println(\"Invalid\");\n}"
+  },
+  {
+    "python": "count = 0\nwhile count < 5:\n    print(count)\n    count += 1",
+    "java": "int count = 0;\nwhile (count < 5) {\n    System.out.println(count);\n    count++;\n}"
+  },
+  {
+    "python": "items = []\nif not items:\n    print(\"Empty\")",
+    "java": "java.util.List<String> items = new java.util.ArrayList<>();\nif (items.isEmpty()) {\n    System.out.println(\"Empty\");\n}"
+  },
+  {
+    "python": "data.append(47)",
+    "java": "data.add(47);"
+  },
+  {
+    "python": "j -= 69",
+    "java": "j -= 69;"
+  },
+  {
+    "python": "if k > 54:\n    print(\"False\")",
+    "java": "if (k > 54) {\n    System.out.println(\"False\");\n}"
+  },
+  {
+    "python": "res = y - z",
+    "java": "int res = y - z;"
+  },
+  {
+    "python": "print(index)",
+    "java": "System.out.println(index);"
+  },
+  {
+    "python": "for i in range(14):\n    print(i)",
+    "java": "for (int i = 0; i < 14; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "a = c + b",
+    "java": "int a = c + b;"
+  },
+  {
+    "python": "count = k / y",
+    "java": "int count = k / y;"
+  },
+  {
+    "python": "if i >= 1:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (i >= 1) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "if x == 7:\n    print(\"Error\")",
+    "java": "if (x == 7) {\n    System.out.println(\"Error\");\n}"
+  },
+  {
+    "python": "print(k)",
+    "java": "System.out.println(k);"
+  },
+  {
+    "python": "print(x)",
+    "java": "System.out.println(x);"
+  },
+  {
+    "python": "print(val)",
+    "java": "System.out.println(val);"
+  },
+  {
+    "python": "if index < 45:\n    print(\"Yes\")",
+    "java": "if (index < 45) {\n    System.out.println(\"Yes\");\n}"
+  },
+  {
+    "python": "data = msg + name",
+    "java": "String data = msg + name;"
+  },
+  {
+    "python": "count = items[5]",
+    "java": "int count = items.get(5);"
+  },
+  {
+    "python": "a = 62",
+    "java": "int a = 62;"
+  },
+  {
+    "python": "msg = msg + msg_2",
+    "java": "String msg = msg + msg_2;"
+  },
+  {
+    "python": "total = res - index",
+    "java": "int total = res - index;"
+  },
+  {
+    "python": "val = 0\nwhile val < 13:\n    val += 1",
+    "java": "int val = 0;\nwhile (val < 13) {\n    val++;\n}"
+  },
+  {
+    "python": "b = 0\nwhile b <= 68:\n    b += 1",
+    "java": "int b = 0;\nwhile (b <= 68) {\n    b++;\n}"
+  },
+  {
+    "python": "for k in range(43):\n    print(k)",
+    "java": "for (int k = 0; k < 43; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "index = 0\nwhile index <= 38:\n    index += 1",
+    "java": "int index = 0;\nwhile (index <= 38) {\n    index++;\n}"
+  },
+  {
+    "python": "res += 37",
+    "java": "res += 37;"
+  },
+  {
+    "python": "numbers.append(78)",
+    "java": "numbers.add(78);"
+  },
+  {
+    "python": "s = msg + s",
+    "java": "String s = msg + s;"
+  },
+  {
+    "python": "val = k - z",
+    "java": "int val = k - z;"
+  },
+  {
+    "python": "res = a % i",
+    "java": "int res = a % i;"
+  },
+  {
+    "python": "b = 35",
+    "java": "int b = 35;"
+  },
+  {
+    "python": "i = 0\nwhile i <= 71:\n    i += 1",
+    "java": "int i = 0;\nwhile (i <= 71) {\n    i++;\n}"
+  },
+  {
+    "python": "if c < 68:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (c < 68) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "c = data[1]",
+    "java": "int c = data.get(1);"
+  },
+  {
+    "python": "calc(30)",
+    "java": "calc(30);"
+  },
+  {
+    "python": "index = 78",
+    "java": "int index = 78;"
+  },
+  {
+    "python": "count = 0\nwhile count <= 23:\n    count += 1",
+    "java": "int count = 0;\nwhile (count <= 23) {\n    count++;\n}"
+  },
+  {
+    "python": "if total == 78:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (total == 78) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "i += 16",
+    "java": "i += 16;"
+  },
+  {
+    "python": "data = msg + line",
+    "java": "String data = msg + line;"
+  },
+  {
+    "python": "res = arr[1]",
+    "java": "int res = arr.get(1);"
+  },
+  {
+    "python": "y = items[0]",
+    "java": "int y = items.get(0);"
+  },
+  {
+    "python": "arr.append(58)",
+    "java": "arr.add(58);"
+  },
+  {
+    "python": "count = 0\nwhile count < 77:\n    count += 1",
+    "java": "int count = 0;\nwhile (count < 77) {\n    count++;\n}"
+  },
+  {
+    "python": "for j in range(58):\n    print(j)",
+    "java": "for (int j = 0; j < 58; j++) {\n    System.out.println(j);\n}"
+  },
+  {
+    "python": "print(j)",
+    "java": "System.out.println(j);"
+  },
+  {
+    "python": "x = 0\nwhile x < 82:\n    x += 1",
+    "java": "int x = 0;\nwhile (x < 82) {\n    x++;\n}"
+  },
+  {
+    "python": "if j < 19:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (j < 19) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "arr.append(55)",
+    "java": "arr.add(55);"
+  },
+  {
+    "python": "for idx in range(51):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 51; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "data = line + name",
+    "java": "String data = line + name;"
+  },
+  {
+    "python": "check(6)",
+    "java": "check(6);"
+  },
+  {
+    "python": "if a <= 58:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (a <= 58) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "print(c)",
+    "java": "System.out.println(c);"
+  },
+  {
+    "python": "y += 94",
+    "java": "y += 94;"
+  },
+  {
+    "python": "for k in range(39):\n    print(k)",
+    "java": "for (int k = 0; k < 39; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "check(35)",
+    "java": "check(35);"
+  },
+  {
+    "python": "j = i % z",
+    "java": "int j = i % z;"
+  },
+  {
+    "python": "calc(53)",
+    "java": "calc(53);"
+  },
+  {
+    "python": "print(a)",
+    "java": "System.out.println(a);"
+  },
+  {
+    "python": "val = arr[5]",
+    "java": "int val = arr.get(5);"
+  },
+  {
+    "python": "if count > 25:\n    print(\"No\")",
+    "java": "if (count > 25) {\n    System.out.println(\"No\");\n}"
+  },
+  {
+    "python": "process(62)",
+    "java": "process(62);"
+  },
+  {
+    "python": "for i in range(15):\n    print(i)",
+    "java": "for (int i = 0; i < 15; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "if res > 40:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (res > 40) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "data.append(61)",
+    "java": "data.add(61);"
+  },
+  {
+    "python": "index = numbers[2]",
+    "java": "int index = numbers.get(2);"
+  },
+  {
+    "python": "if a >= 38:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (a >= 38) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "j = 64",
+    "java": "int j = 64;"
+  },
+  {
+    "python": "if count == 23:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (count == 23) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "if a != 71:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (a != 71) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "vals.append(49)",
+    "java": "vals.add(49);"
+  },
+  {
+    "python": "y = count * c",
+    "java": "int y = count * c;"
+  },
+  {
+    "python": "z = 0\nwhile z <= 73:\n    z += 1",
+    "java": "int z = 0;\nwhile (z <= 73) {\n    z++;\n}"
+  },
+  {
+    "python": "for k in range(27):\n    print(k)",
+    "java": "for (int k = 0; k < 27; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "data.append(94)",
+    "java": "data.add(94);"
+  },
+  {
+    "python": "if k <= 5:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (k <= 5) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "c = 0\nwhile c <= 13:\n    c += 1",
+    "java": "int c = 0;\nwhile (c <= 13) {\n    c++;\n}"
+  },
+  {
+    "python": "process(12)",
+    "java": "process(12);"
+  },
+  {
+    "python": "x = 14",
+    "java": "int x = 14;"
+  },
+  {
+    "python": "b = z * res",
+    "java": "int b = z * res;"
+  },
+  {
+    "python": "b -= 27",
+    "java": "b -= 27;"
+  },
+  {
+    "python": "for i in range(26):\n    print(i)",
+    "java": "for (int i = 0; i < 26; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "vals.append(11)",
+    "java": "vals.add(11);"
+  },
+  {
+    "python": "if x <= 90:\n    print(\"Yes\")",
+    "java": "if (x <= 90) {\n    System.out.println(\"Yes\");\n}"
+  },
+  {
+    "python": "a = k + j",
+    "java": "int a = k + j;"
+  },
+  {
+    "python": "for idx in range(99):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 99; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "for j in range(49):\n    print(j)",
+    "java": "for (int j = 0; j < 49; j++) {\n    System.out.println(j);\n}"
+  },
+  {
+    "python": "z = 0\nwhile z < 74:\n    z += 1",
+    "java": "int z = 0;\nwhile (z < 74) {\n    z++;\n}"
+  },
+  {
+    "python": "j = 5",
+    "java": "int j = 5;"
+  },
+  {
+    "python": "data = name + data",
+    "java": "String data = name + data;"
+  },
+  {
+    "python": "y = 0\nwhile y <= 36:\n    y += 1",
+    "java": "int y = 0;\nwhile (y <= 36) {\n    y++;\n}"
+  },
+  {
+    "python": "if total == 1:\n    print(\"True\")",
+    "java": "if (total == 1) {\n    System.out.println(\"True\");\n}"
+  },
+  {
+    "python": "items.append(23)",
+    "java": "items.add(23);"
+  },
+  {
+    "python": "if count > 88:\n    print(\"True\")",
+    "java": "if (count > 88) {\n    System.out.println(\"True\");\n}"
+  },
+  {
+    "python": "arr.append(6)",
+    "java": "arr.add(6);"
+  },
+  {
+    "python": "numbers.append(34)",
+    "java": "numbers.add(34);"
+  },
+  {
+    "python": "for idx in range(23):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 23; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "if y > 24:\n    print(\"Ok\")",
+    "java": "if (y > 24) {\n    System.out.println(\"Ok\");\n}"
+  },
+  {
+    "python": "numbers.append(41)",
+    "java": "numbers.add(41);"
+  },
+  {
+    "python": "c = count * x",
+    "java": "int c = count * x;"
+  },
+  {
+    "python": "check(1)",
+    "java": "check(1);"
+  },
+  {
+    "python": "if res >= 20:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (res >= 20) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "process(45)",
+    "java": "process(45);"
+  },
+  {
+    "python": "for k in range(57):\n    print(k)",
+    "java": "for (int k = 0; k < 57; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "text = s + name",
+    "java": "String text = s + name;"
+  },
+  {
+    "python": "x = 88",
+    "java": "int x = 88;"
+  },
+  {
+    "python": "i = 0\nwhile i <= 41:\n    i += 1",
+    "java": "int i = 0;\nwhile (i <= 41) {\n    i++;\n}"
+  },
+  {
+    "python": "data.append(69)",
+    "java": "data.add(69);"
+  },
+  {
+    "python": "if i >= 83:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (i >= 83) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "update(14)",
+    "java": "update(14);"
+  },
+  {
+    "python": "if index >= 52:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (index >= 52) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "if x > 74:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (x > 74) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "j += 98",
+    "java": "j += 98;"
+  },
+  {
+    "python": "x = y * b",
+    "java": "int x = y * b;"
+  },
+  {
+    "python": "for j in range(18):\n    print(j)",
+    "java": "for (int j = 0; j < 18; j++) {\n    System.out.println(j);\n}"
+  },
+  {
+    "python": "for idx in range(21):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 21; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "k = total - c",
+    "java": "int k = total - c;"
+  },
+  {
+    "python": "val = arr[0]",
+    "java": "int val = arr.get(0);"
+  },
+  {
+    "python": "check(12)",
+    "java": "check(12);"
+  },
+  {
+    "python": "name = msg + s",
+    "java": "String name = msg + s;"
+  },
+  {
+    "python": "a = 0\nwhile a <= 46:\n    a += 1",
+    "java": "int a = 0;\nwhile (a <= 46) {\n    a++;\n}"
+  },
+  {
+    "python": "val = numbers[3]",
+    "java": "int val = numbers.get(3);"
+  },
+  {
+    "python": "i += 28",
+    "java": "i += 28;"
+  },
+  {
+    "python": "val = 36",
+    "java": "int val = 36;"
+  },
+  {
+    "python": "total = 83",
+    "java": "int total = 83;"
+  },
+  {
+    "python": "total = 0\nwhile total <= 44:\n    total += 1",
+    "java": "int total = 0;\nwhile (total <= 44) {\n    total++;\n}"
+  },
+  {
+    "python": "x = i % k",
+    "java": "int x = i % k;"
+  },
+  {
+    "python": "total = 57",
+    "java": "int total = 57;"
+  },
+  {
+    "python": "name = data + name",
+    "java": "String name = data + name;"
+  },
+  {
+    "python": "a = 0\nwhile a <= 48:\n    a += 1",
+    "java": "int a = 0;\nwhile (a <= 48) {\n    a++;\n}"
+  },
+  {
+    "python": "if j != 76:\n    print(\"Ok\")",
+    "java": "if (j != 76) {\n    System.out.println(\"Ok\");\n}"
+  },
+  {
+    "python": "x = index * y",
+    "java": "int x = index * y;"
+  },
+  {
+    "python": "y = 44",
+    "java": "int y = 44;"
+  },
+  {
+    "python": "if i < 74:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (i < 74) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "vals.append(92)",
+    "java": "vals.add(92);"
+  },
+  {
+    "python": "if index > 85:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (index > 85) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "total = 0\nwhile total < 98:\n    total += 1",
+    "java": "int total = 0;\nwhile (total < 98) {\n    total++;\n}"
+  },
+  {
+    "python": "i *= 19",
+    "java": "i *= 19;"
+  },
+  {
+    "python": "if k >= 64:\n    print(\"Ok\")",
+    "java": "if (k >= 64) {\n    System.out.println(\"Ok\");\n}"
+  },
+  {
+    "python": "name = msg + text",
+    "java": "String name = msg + text;"
+  },
+  {
+    "python": "index = 0\nwhile index <= 29:\n    index += 1",
+    "java": "int index = 0;\nwhile (index <= 29) {\n    index++;\n}"
+  },
+  {
+    "python": "y -= 60",
+    "java": "y -= 60;"
+  },
+  {
+    "python": "s = line + msg",
+    "java": "String s = line + msg;"
+  },
+  {
+    "python": "if res > 42:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (res > 42) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "val = res % b",
+    "java": "int val = res % b;"
+  },
+  {
+    "python": "for j in range(32):\n    print(j)",
+    "java": "for (int j = 0; j < 32; j++) {\n    System.out.println(j);\n}"
+  },
+  {
+    "python": "check(9)",
+    "java": "check(9);"
+  },
+  {
+    "python": "check(49)",
+    "java": "check(49);"
+  },
+  {
+    "python": "res += 76",
+    "java": "res += 76;"
+  },
+  {
+    "python": "calc(4)",
+    "java": "calc(4);"
+  },
+  {
+    "python": "b = 0\nwhile b <= 29:\n    b += 1",
+    "java": "int b = 0;\nwhile (b <= 29) {\n    b++;\n}"
+  },
+  {
+    "python": "for j in range(30):\n    print(j)",
+    "java": "for (int j = 0; j < 30; j++) {\n    System.out.println(j);\n}"
+  },
+  {
+    "python": "y = 15",
+    "java": "int y = 15;"
+  },
+  {
+    "python": "x = 24",
+    "java": "int x = 24;"
+  },
+  {
+    "python": "index += 29",
+    "java": "index += 29;"
+  },
+  {
+    "python": "for i in range(32):\n    print(i)",
+    "java": "for (int i = 0; i < 32; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "data.append(38)",
+    "java": "data.add(38);"
+  },
+  {
+    "python": "update(22)",
+    "java": "update(22);"
+  },
+  {
+    "python": "x = 0\nwhile x < 50:\n    x += 1",
+    "java": "int x = 0;\nwhile (x < 50) {\n    x++;\n}"
+  },
+  {
+    "python": "if index != 74:\n    print(\"True\")",
+    "java": "if (index != 74) {\n    System.out.println(\"True\");\n}"
+  },
+  {
+    "python": "print(i)",
+    "java": "System.out.println(i);"
+  },
+  {
+    "python": "vals.append(9)",
+    "java": "vals.add(9);"
+  },
+  {
+    "python": "s = text + name",
+    "java": "String s = text + name;"
+  },
+  {
+    "python": "s = s + line",
+    "java": "String s = s + line;"
+  },
+  {
+    "python": "i = 22",
+    "java": "int i = 22;"
+  },
+  {
+    "python": "if c <= 83:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (c <= 83) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "if c == 47:\n    print(\"Error\")",
+    "java": "if (c == 47) {\n    System.out.println(\"Error\");\n}"
+  },
+  {
+    "python": "if x == 75:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (x == 75) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "total = res % y",
+    "java": "int total = res % y;"
+  },
+  {
+    "python": "if a >= 53:\n    print(\"Ok\")",
+    "java": "if (a >= 53) {\n    System.out.println(\"Ok\");\n}"
+  },
+  {
+    "python": "b = items[0]",
+    "java": "int b = items.get(0);"
+  },
+  {
+    "python": "if j > 76:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (j > 76) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "index = 12",
+    "java": "int index = 12;"
+  },
+  {
+    "python": "if k <= 51:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (k <= 51) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "z = items[4]",
+    "java": "int z = items.get(4);"
+  },
+  {
+    "python": "b *= 68",
+    "java": "b *= 68;"
+  },
+  {
+    "python": "for i in range(63):\n    print(i)",
+    "java": "for (int i = 0; i < 63; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "if c >= 46:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (c >= 46) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "items.append(45)",
+    "java": "items.add(45);"
+  },
+  {
+    "python": "print(count)",
+    "java": "System.out.println(count);"
+  },
+  {
+    "python": "if i <= 49:\n    print(\"Yes\")",
+    "java": "if (i <= 49) {\n    System.out.println(\"Yes\");\n}"
+  },
+  {
+    "python": "arr.append(28)",
+    "java": "arr.add(28);"
+  },
+  {
+    "python": "msg = text + line",
+    "java": "String msg = text + line;"
+  },
+  {
+    "python": "for idx in range(87):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 87; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "z = i / b",
+    "java": "int z = i / b;"
+  },
+  {
+    "python": "c = numbers[3]",
+    "java": "int c = numbers.get(3);"
+  },
+  {
+    "python": "a = 13",
+    "java": "int a = 13;"
+  },
+  {
+    "python": "if index == 80:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (index == 80) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "vals.append(66)",
+    "java": "vals.add(66);"
+  },
+  {
+    "python": "if total >= 49:\n    print(\"Yes\")",
+    "java": "if (total >= 49) {\n    System.out.println(\"Yes\");\n}"
+  },
+  {
+    "python": "k = 0\nwhile k < 65:\n    k += 1",
+    "java": "int k = 0;\nwhile (k < 65) {\n    k++;\n}"
+  },
+  {
+    "python": "if res != 12:\n    print(\"False\")",
+    "java": "if (res != 12) {\n    System.out.println(\"False\");\n}"
+  },
+  {
+    "python": "if c == 31:\n    print(\"No\")",
+    "java": "if (c == 31) {\n    System.out.println(\"No\");\n}"
+  },
+  {
+    "python": "numbers.append(13)",
+    "java": "numbers.add(13);"
+  },
+  {
+    "python": "j = numbers[4]",
+    "java": "int j = numbers.get(4);"
+  },
+  {
+    "python": "c = 0\nwhile c <= 69:\n    c += 1",
+    "java": "int c = 0;\nwhile (c <= 69) {\n    c++;\n}"
+  },
+  {
+    "python": "total = 0\nwhile total <= 57:\n    total += 1",
+    "java": "int total = 0;\nwhile (total <= 57) {\n    total++;\n}"
+  },
+  {
+    "python": "i = res + j",
+    "java": "int i = res + j;"
+  },
+  {
+    "python": "x = 0\nwhile x < 92:\n    x += 1",
+    "java": "int x = 0;\nwhile (x < 92) {\n    x++;\n}"
+  },
+  {
+    "python": "if j != 53:\n    print(\"False\")",
+    "java": "if (j != 53) {\n    System.out.println(\"False\");\n}"
+  },
+  {
+    "python": "x = 78",
+    "java": "int x = 78;"
+  },
+  {
+    "python": "b = 0\nwhile b < 18:\n    b += 1",
+    "java": "int b = 0;\nwhile (b < 18) {\n    b++;\n}"
+  },
+  {
+    "python": "if res < 22:\n    print(\"Error\")",
+    "java": "if (res < 22) {\n    System.out.println(\"Error\");\n}"
+  },
+  {
+    "python": "count = data[4]",
+    "java": "int count = data.get(4);"
+  },
+  {
+    "python": "print(b)",
+    "java": "System.out.println(b);"
+  },
+  {
+    "python": "if x <= 99:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (x <= 99) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "if val >= 36:\n    print(\"Error\")",
+    "java": "if (val >= 36) {\n    System.out.println(\"Error\");\n}"
+  },
+  {
+    "python": "calc(37)",
+    "java": "calc(37);"
+  },
+  {
+    "python": "data.append(93)",
+    "java": "data.add(93);"
+  },
+  {
+    "python": "y = count % total",
+    "java": "int y = count % total;"
+  },
+  {
+    "python": "if z < 41:\n    print(\"Yes\")",
+    "java": "if (z < 41) {\n    System.out.println(\"Yes\");\n}"
+  },
+  {
+    "python": "c = vals[4]",
+    "java": "int c = vals.get(4);"
+  },
+  {
+    "python": "if z <= 64:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (z <= 64) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "if index < 3:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (index < 3) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "s = text + text_2",
+    "java": "String s = text + text_2;"
+  },
+  {
+    "python": "for idx in range(5):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 5; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "data.append(2)",
+    "java": "data.add(2);"
+  },
+  {
+    "python": "k += 59",
+    "java": "k += 59;"
+  },
+  {
+    "python": "b = 60",
+    "java": "int b = 60;"
+  },
+  {
+    "python": "count += 2",
+    "java": "count += 2;"
+  },
+  {
+    "python": "line = name + name_2",
+    "java": "String line = name + name_2;"
+  },
+  {
+    "python": "k *= 54",
+    "java": "k *= 54;"
+  },
+  {
+    "python": "for i in range(34):\n    print(i)",
+    "java": "for (int i = 0; i < 34; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "items.append(75)",
+    "java": "items.add(75);"
+  },
+  {
+    "python": "total = 0\nwhile total <= 31:\n    total += 1",
+    "java": "int total = 0;\nwhile (total <= 31) {\n    total++;\n}"
+  },
+  {
+    "python": "index = vals[0]",
+    "java": "int index = vals.get(0);"
+  },
+  {
+    "python": "if z > 2:\n    print(\"Ok\")",
+    "java": "if (z > 2) {\n    System.out.println(\"Ok\");\n}"
+  },
+  {
+    "python": "k = arr[2]",
+    "java": "int k = arr.get(2);"
+  },
+  {
+    "python": "count = i % index",
+    "java": "int count = i % index;"
+  },
+  {
+    "python": "if b <= 24:\n    print(\"No\")",
+    "java": "if (b <= 24) {\n    System.out.println(\"No\");\n}"
+  },
+  {
+    "python": "if a != 100:\n    print(\"No\")",
+    "java": "if (a != 100) {\n    System.out.println(\"No\");\n}"
+  },
+  {
+    "python": "i = 0\nwhile i < 61:\n    i += 1",
+    "java": "int i = 0;\nwhile (i < 61) {\n    i++;\n}"
+  },
+  {
+    "python": "data = text + line",
+    "java": "String data = text + line;"
+  },
+  {
+    "python": "y = 47",
+    "java": "int y = 47;"
+  },
+  {
+    "python": "for idx in range(47):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 47; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "if a <= 9:\n    print(\"No\")",
+    "java": "if (a <= 9) {\n    System.out.println(\"No\");\n}"
+  },
+  {
+    "python": "for i in range(97):\n    print(i)",
+    "java": "for (int i = 0; i < 97; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "index = data[4]",
+    "java": "int index = data.get(4);"
+  },
+  {
+    "python": "i = z - a",
+    "java": "int i = z - a;"
+  },
+  {
+    "python": "if b < 86:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (b < 86) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "count = 0\nwhile count <= 71:\n    count += 1",
+    "java": "int count = 0;\nwhile (count <= 71) {\n    count++;\n}"
+  },
+  {
+    "python": "print(z)",
+    "java": "System.out.println(z);"
+  },
+  {
+    "python": "for idx in range(2):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 2; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "i = count % total",
+    "java": "int i = count % total;"
+  },
+  {
+    "python": "msg = line + s",
+    "java": "String msg = line + s;"
+  },
+  {
+    "python": "for i in range(93):\n    print(i)",
+    "java": "for (int i = 0; i < 93; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "b = 0\nwhile b <= 36:\n    b += 1",
+    "java": "int b = 0;\nwhile (b <= 36) {\n    b++;\n}"
+  },
+  {
+    "python": "j = 0\nwhile j < 60:\n    j += 1",
+    "java": "int j = 0;\nwhile (j < 60) {\n    j++;\n}"
+  },
+  {
+    "python": "numbers.append(12)",
+    "java": "numbers.add(12);"
+  },
+  {
+    "python": "if total != 20:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (total != 20) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "if y <= 4:\n    print(\"Ok\")",
+    "java": "if (y <= 4) {\n    System.out.println(\"Ok\");\n}"
+  },
+  {
+    "python": "for i in range(80):\n    print(i)",
+    "java": "for (int i = 0; i < 80; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "arr.append(59)",
+    "java": "arr.add(59);"
+  },
+  {
+    "python": "for i in range(66):\n    print(i)",
+    "java": "for (int i = 0; i < 66; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "z = c - x",
+    "java": "int z = c - x;"
+  },
+  {
+    "python": "y = 0\nwhile y < 25:\n    y += 1",
+    "java": "int y = 0;\nwhile (y < 25) {\n    y++;\n}"
+  },
+  {
+    "python": "i += 33",
+    "java": "i += 33;"
+  },
+  {
+    "python": "data.append(19)",
+    "java": "data.add(19);"
+  },
+  {
+    "python": "c = val + res",
+    "java": "int c = val + res;"
+  },
+  {
+    "python": "if index != 47:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (index != 47) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "if z < 76:\n    print(\"No\")",
+    "java": "if (z < 76) {\n    System.out.println(\"No\");\n}"
+  },
+  {
+    "python": "j -= 60",
+    "java": "j -= 60;"
+  },
+  {
+    "python": "if x >= 45:\n    print(\"No\")",
+    "java": "if (x >= 45) {\n    System.out.println(\"No\");\n}"
+  },
+  {
+    "python": "check(33)",
+    "java": "check(33);"
+  },
+  {
+    "python": "if total < 30:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (total < 30) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "data.append(48)",
+    "java": "data.add(48);"
+  },
+  {
+    "python": "x *= 87",
+    "java": "x *= 87;"
+  },
+  {
+    "python": "x *= 56",
+    "java": "x *= 56;"
+  },
+  {
+    "python": "index = 5",
+    "java": "int index = 5;"
+  },
+  {
+    "python": "for k in range(99):\n    print(k)",
+    "java": "for (int k = 0; k < 99; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "x = 0\nwhile x <= 65:\n    x += 1",
+    "java": "int x = 0;\nwhile (x <= 65) {\n    x++;\n}"
+  },
+  {
+    "python": "y -= 37",
+    "java": "y -= 37;"
+  },
+  {
+    "python": "total *= 71",
+    "java": "total *= 71;"
+  },
+  {
+    "python": "items.append(77)",
+    "java": "items.add(77);"
+  },
+  {
+    "python": "check(63)",
+    "java": "check(63);"
+  },
+  {
+    "python": "a = c * index",
+    "java": "int a = c * index;"
+  },
+  {
+    "python": "print(y)",
+    "java": "System.out.println(y);"
+  },
+  {
+    "python": "val = 70",
+    "java": "int val = 70;"
+  },
+  {
+    "python": "b = 0\nwhile b <= 35:\n    b += 1",
+    "java": "int b = 0;\nwhile (b <= 35) {\n    b++;\n}"
+  },
+  {
+    "python": "calc(27)",
+    "java": "calc(27);"
+  },
+  {
+    "python": "if k >= 29:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (k >= 29) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "c = data[0]",
+    "java": "int c = data.get(0);"
+  },
+  {
+    "python": "z = 1",
+    "java": "int z = 1;"
+  },
+  {
+    "python": "if index >= 59:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (index >= 59) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "x = numbers[2]",
+    "java": "int x = numbers.get(2);"
+  },
+  {
+    "python": "for idx in range(36):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 36; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "print(res)",
+    "java": "System.out.println(res);"
+  },
+  {
+    "python": "if a >= 31:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (a >= 31) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "j = 0\nwhile j <= 28:\n    j += 1",
+    "java": "int j = 0;\nwhile (j <= 28) {\n    j++;\n}"
+  },
+  {
+    "python": "update(56)",
+    "java": "update(56);"
+  },
+  {
+    "python": "if x >= 95:\n    print(\"Yes\")",
+    "java": "if (x >= 95) {\n    System.out.println(\"Yes\");\n}"
+  },
+  {
+    "python": "check(52)",
+    "java": "check(52);"
+  },
+  {
+    "python": "for idx in range(3):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 3; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "c = y - i",
+    "java": "int c = y - i;"
+  },
+  {
+    "python": "line = name + line",
+    "java": "String line = name + line;"
+  },
+  {
+    "python": "check(48)",
+    "java": "check(48);"
+  },
+  {
+    "python": "z = 0\nwhile z < 54:\n    z += 1",
+    "java": "int z = 0;\nwhile (z < 54) {\n    z++;\n}"
+  },
+  {
+    "python": "if count != 85:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (count != 85) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "y = 31",
+    "java": "int y = 31;"
+  },
+  {
+    "python": "b = 0\nwhile b < 40:\n    b += 1",
+    "java": "int b = 0;\nwhile (b < 40) {\n    b++;\n}"
+  },
+  {
+    "python": "if count == 96:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (count == 96) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "for i in range(96):\n    print(i)",
+    "java": "for (int i = 0; i < 96; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "z = c / x",
+    "java": "int z = c / x;"
+  },
+  {
+    "python": "res = 0\nwhile res < 25:\n    res += 1",
+    "java": "int res = 0;\nwhile (res < 25) {\n    res++;\n}"
+  },
+  {
+    "python": "b *= 12",
+    "java": "b *= 12;"
+  },
+  {
+    "python": "y = 0\nwhile y < 13:\n    y += 1",
+    "java": "int y = 0;\nwhile (y < 13) {\n    y++;\n}"
+  },
+  {
+    "python": "msg = data + line",
+    "java": "String msg = data + line;"
+  },
+  {
+    "python": "y = 74",
+    "java": "int y = 74;"
+  },
+  {
+    "python": "x = 18",
+    "java": "int x = 18;"
+  },
+  {
+    "python": "b = arr[1]",
+    "java": "int b = arr.get(1);"
+  },
+  {
+    "python": "k = vals[2]",
+    "java": "int k = vals.get(2);"
+  },
+  {
+    "python": "res = 87",
+    "java": "int res = 87;"
+  },
+  {
+    "python": "count = 0\nwhile count <= 70:\n    count += 1",
+    "java": "int count = 0;\nwhile (count <= 70) {\n    count++;\n}"
+  },
+  {
+    "python": "text = s + text",
+    "java": "String text = s + text;"
+  },
+  {
+    "python": "index = 0\nwhile index < 87:\n    index += 1",
+    "java": "int index = 0;\nwhile (index < 87) {\n    index++;\n}"
+  },
+  {
+    "python": "a -= 30",
+    "java": "a -= 30;"
+  },
+  {
+    "python": "vals.append(55)",
+    "java": "vals.add(55);"
+  },
+  {
+    "python": "if b <= 65:\n    print(\"Error\")",
+    "java": "if (b <= 65) {\n    System.out.println(\"Error\");\n}"
+  },
+  {
+    "python": "i = 39",
+    "java": "int i = 39;"
+  },
+  {
+    "python": "total = vals[1]",
+    "java": "int total = vals.get(1);"
+  },
+  {
+    "python": "index = 0\nwhile index <= 59:\n    index += 1",
+    "java": "int index = 0;\nwhile (index <= 59) {\n    index++;\n}"
+  },
+  {
+    "python": "total = numbers[3]",
+    "java": "int total = numbers.get(3);"
+  },
+  {
+    "python": "if total > 44:\n    print(\"No\")",
+    "java": "if (total > 44) {\n    System.out.println(\"No\");\n}"
+  },
+  {
+    "python": "if b != 3:\n    print(\"Yes\")",
+    "java": "if (b != 3) {\n    System.out.println(\"Yes\");\n}"
+  },
+  {
+    "python": "text = data + data_2",
+    "java": "String text = data + data_2;"
+  },
+  {
+    "python": "if a < 1:\n    print(\"Ok\")",
+    "java": "if (a < 1) {\n    System.out.println(\"Ok\");\n}"
+  },
+  {
+    "python": "arr.append(87)",
+    "java": "arr.add(87);"
+  },
+  {
+    "python": "index = vals[5]",
+    "java": "int index = vals.get(5);"
+  },
+  {
+    "python": "if z == 91:\n    print(\"False\")",
+    "java": "if (z == 91) {\n    System.out.println(\"False\");\n}"
+  },
+  {
+    "python": "arr.append(90)",
+    "java": "arr.add(90);"
+  },
+  {
+    "python": "k *= 92",
+    "java": "k *= 92;"
+  },
+  {
+    "python": "j = 27",
+    "java": "int j = 27;"
+  },
+  {
+    "python": "calc(99)",
+    "java": "calc(99);"
+  },
+  {
+    "python": "y = c + index",
+    "java": "int y = c + index;"
+  },
+  {
+    "python": "total = 21",
+    "java": "int total = 21;"
+  },
+  {
+    "python": "if z <= 50:\n    print(\"Yes\")",
+    "java": "if (z <= 50) {\n    System.out.println(\"Yes\");\n}"
+  },
+  {
+    "python": "j = 0\nwhile j <= 95:\n    j += 1",
+    "java": "int j = 0;\nwhile (j <= 95) {\n    j++;\n}"
+  },
+  {
+    "python": "c -= 41",
+    "java": "c -= 41;"
+  },
+  {
+    "python": "z *= 63",
+    "java": "z *= 63;"
+  },
+  {
+    "python": "res = vals[1]",
+    "java": "int res = vals.get(1);"
+  },
+  {
+    "python": "total = 62",
+    "java": "int total = 62;"
+  },
+  {
+    "python": "b = items[5]",
+    "java": "int b = items.get(5);"
+  },
+  {
+    "python": "y -= 96",
+    "java": "y -= 96;"
+  },
+  {
+    "python": "if total <= 73:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (total <= 73) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "index = 99",
+    "java": "int index = 99;"
+  },
+  {
+    "python": "index = arr[1]",
+    "java": "int index = arr.get(1);"
+  },
+  {
+    "python": "b -= 15",
+    "java": "b -= 15;"
+  },
+  {
+    "python": "k += 11",
+    "java": "k += 11;"
+  },
+  {
+    "python": "z = 70",
+    "java": "int z = 70;"
+  },
+  {
+    "python": "a = 0\nwhile a <= 12:\n    a += 1",
+    "java": "int a = 0;\nwhile (a <= 12) {\n    a++;\n}"
+  },
+  {
+    "python": "for idx in range(81):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 81; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "total = numbers[0]",
+    "java": "int total = numbers.get(0);"
+  },
+  {
+    "python": "count = 0\nwhile count <= 44:\n    count += 1",
+    "java": "int count = 0;\nwhile (count <= 44) {\n    count++;\n}"
+  },
+  {
+    "python": "count = val + x",
+    "java": "int count = val + x;"
+  },
+  {
+    "python": "for idx in range(63):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 63; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "arr.append(91)",
+    "java": "arr.add(91);"
+  },
+  {
+    "python": "total *= 44",
+    "java": "total *= 44;"
+  },
+  {
+    "python": "arr.append(81)",
+    "java": "arr.add(81);"
+  },
+  {
+    "python": "res = total * a",
+    "java": "int res = total * a;"
+  },
+  {
+    "python": "i = vals[3]",
+    "java": "int i = vals.get(3);"
+  },
+  {
+    "python": "for i in range(51):\n    print(i)",
+    "java": "for (int i = 0; i < 51; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "s = name + data",
+    "java": "String s = name + data;"
+  },
+  {
+    "python": "data.append(44)",
+    "java": "data.add(44);"
+  },
+  {
+    "python": "line = msg + msg_2",
+    "java": "String line = msg + msg_2;"
+  },
+  {
+    "python": "z -= 24",
+    "java": "z -= 24;"
+  },
+  {
+    "python": "if index >= 7:\n    print(\"Ok\")",
+    "java": "if (index >= 7) {\n    System.out.println(\"Ok\");\n}"
+  },
+  {
+    "python": "msg = s + name",
+    "java": "String msg = s + name;"
+  },
+  {
+    "python": "c -= 39",
+    "java": "c -= 39;"
+  },
+  {
+    "python": "update(8)",
+    "java": "update(8);"
+  },
+  {
+    "python": "if val <= 32:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (val <= 32) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "j = items[3]",
+    "java": "int j = items.get(3);"
+  },
+  {
+    "python": "line = line + name",
+    "java": "String line = line + name;"
+  },
+  {
+    "python": "for idx in range(16):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 16; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "check(70)",
+    "java": "check(70);"
+  },
+  {
+    "python": "index = vals[2]",
+    "java": "int index = vals.get(2);"
+  },
+  {
+    "python": "y = i * res",
+    "java": "int y = i * res;"
+  },
+  {
+    "python": "process(68)",
+    "java": "process(68);"
+  },
+  {
+    "python": "if z >= 94:\n    print(\"True\")",
+    "java": "if (z >= 94) {\n    System.out.println(\"True\");\n}"
+  },
+  {
+    "python": "total = 58",
+    "java": "int total = 58;"
+  },
+  {
+    "python": "if x < 3:\n    print(\"False\")",
+    "java": "if (x < 3) {\n    System.out.println(\"False\");\n}"
+  },
+  {
+    "python": "z = 31",
+    "java": "int z = 31;"
+  },
+  {
+    "python": "val = 41",
+    "java": "int val = 41;"
+  },
+  {
+    "python": "if res >= 23:\n    print(\"No\")",
+    "java": "if (res >= 23) {\n    System.out.println(\"No\");\n}"
+  },
+  {
+    "python": "for k in range(21):\n    print(k)",
+    "java": "for (int k = 0; k < 21; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "total += 1",
+    "java": "total += 1;"
+  },
+  {
+    "python": "if x < 39:\n    print(\"True\")",
+    "java": "if (x < 39) {\n    System.out.println(\"True\");\n}"
+  },
+  {
+    "python": "for k in range(62):\n    print(k)",
+    "java": "for (int k = 0; k < 62; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "for i in range(62):\n    print(i)",
+    "java": "for (int i = 0; i < 62; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "z = k / a",
+    "java": "int z = k / a;"
+  },
+  {
+    "python": "res = a + index",
+    "java": "int res = a + index;"
+  },
+  {
+    "python": "b = 79",
+    "java": "int b = 79;"
+  },
+  {
+    "python": "if x != 45:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (x != 45) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "val -= 34",
+    "java": "val -= 34;"
+  },
+  {
+    "python": "if val > 55:\n    print(\"Ok\")",
+    "java": "if (val > 55) {\n    System.out.println(\"Ok\");\n}"
+  },
+  {
+    "python": "for k in range(75):\n    print(k)",
+    "java": "for (int k = 0; k < 75; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "b = c % index",
+    "java": "int b = c % index;"
+  },
+  {
+    "python": "calc(65)",
+    "java": "calc(65);"
+  },
+  {
+    "python": "if b == 30:\n    print(\"No\")",
+    "java": "if (b == 30) {\n    System.out.println(\"No\");\n}"
+  },
+  {
+    "python": "items.append(88)",
+    "java": "items.add(88);"
+  },
+  {
+    "python": "z = i / k",
+    "java": "int z = i / k;"
+  },
+  {
+    "python": "res = 15",
+    "java": "int res = 15;"
+  },
+  {
+    "python": "index = 0\nwhile index <= 45:\n    index += 1",
+    "java": "int index = 0;\nwhile (index <= 45) {\n    index++;\n}"
+  },
+  {
+    "python": "z = k % i",
+    "java": "int z = k % i;"
+  },
+  {
+    "python": "i = 6",
+    "java": "int i = 6;"
+  },
+  {
+    "python": "if k < 60:\n    print(\"False\")",
+    "java": "if (k < 60) {\n    System.out.println(\"False\");\n}"
+  },
+  {
+    "python": "b += 52",
+    "java": "b += 52;"
+  },
+  {
+    "python": "text = line + msg",
+    "java": "String text = line + msg;"
+  },
+  {
+    "python": "z = b % val",
+    "java": "int z = b % val;"
+  },
+  {
+    "python": "count = vals[2]",
+    "java": "int count = vals.get(2);"
+  },
+  {
+    "python": "for i in range(98):\n    print(i)",
+    "java": "for (int i = 0; i < 98; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "vals.append(84)",
+    "java": "vals.add(84);"
+  },
+  {
+    "python": "numbers.append(81)",
+    "java": "numbers.add(81);"
+  },
+  {
+    "python": "index = 0\nwhile index < 53:\n    index += 1",
+    "java": "int index = 0;\nwhile (index < 53) {\n    index++;\n}"
+  },
+  {
+    "python": "k *= 31",
+    "java": "k *= 31;"
+  },
+  {
+    "python": "z = 0\nwhile z <= 2:\n    z += 1",
+    "java": "int z = 0;\nwhile (z <= 2) {\n    z++;\n}"
+  },
+  {
+    "python": "if b != 60:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (b != 60) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "total = c - val",
+    "java": "int total = c - val;"
+  },
+  {
+    "python": "index = 10",
+    "java": "int index = 10;"
+  },
+  {
+    "python": "a = 11",
+    "java": "int a = 11;"
+  },
+  {
+    "python": "val = a % b",
+    "java": "int val = a % b;"
+  },
+  {
+    "python": "j = a % index",
+    "java": "int j = a % index;"
+  },
+  {
+    "python": "y = k + c",
+    "java": "int y = k + c;"
+  },
+  {
+    "python": "msg = msg + text",
+    "java": "String msg = msg + text;"
+  },
+  {
+    "python": "c = 42",
+    "java": "int c = 42;"
+  },
+  {
+    "python": "text = name + text",
+    "java": "String text = name + text;"
+  },
+  {
+    "python": "k = items[2]",
+    "java": "int k = items.get(2);"
+  },
+  {
+    "python": "check(4)",
+    "java": "check(4);"
+  },
+  {
+    "python": "y = 0\nwhile y <= 58:\n    y += 1",
+    "java": "int y = 0;\nwhile (y <= 58) {\n    y++;\n}"
+  },
+  {
+    "python": "index = 0\nwhile index <= 17:\n    index += 1",
+    "java": "int index = 0;\nwhile (index <= 17) {\n    index++;\n}"
+  },
+  {
+    "python": "i = 4",
+    "java": "int i = 4;"
+  },
+  {
+    "python": "line = s + name",
+    "java": "String line = s + name;"
+  },
+  {
+    "python": "for idx in range(13):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 13; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "data.append(18)",
+    "java": "data.add(18);"
+  },
+  {
+    "python": "c = 0\nwhile c < 81:\n    c += 1",
+    "java": "int c = 0;\nwhile (c < 81) {\n    c++;\n}"
+  },
+  {
+    "python": "if val != 61:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (val != 61) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "for idx in range(97):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 97; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "if i <= 61:\n    print(\"False\")",
+    "java": "if (i <= 61) {\n    System.out.println(\"False\");\n}"
+  },
+  {
+    "python": "if k < 76:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (k < 76) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "if index <= 58:\n    print(\"True\")",
+    "java": "if (index <= 58) {\n    System.out.println(\"True\");\n}"
+  },
+  {
+    "python": "count = numbers[0]",
+    "java": "int count = numbers.get(0);"
+  },
+  {
+    "python": "if k != 51:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (k != 51) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "j += 6",
+    "java": "j += 6;"
+  },
+  {
+    "python": "if i > 50:\n    print(\"Error\")",
+    "java": "if (i > 50) {\n    System.out.println(\"Error\");\n}"
+  },
+  {
+    "python": "for i in range(25):\n    print(i)",
+    "java": "for (int i = 0; i < 25; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "z -= 2",
+    "java": "z -= 2;"
+  },
+  {
+    "python": "arr.append(83)",
+    "java": "arr.add(83);"
+  },
+  {
+    "python": "check(30)",
+    "java": "check(30);"
+  },
+  {
+    "python": "if z == 79:\n    print(\"Error\")",
+    "java": "if (z == 79) {\n    System.out.println(\"Error\");\n}"
+  },
+  {
+    "python": "y = items[1]",
+    "java": "int y = items.get(1);"
+  },
+  {
+    "python": "if b > 100:\n    print(\"False\")",
+    "java": "if (b > 100) {\n    System.out.println(\"False\");\n}"
+  },
+  {
+    "python": "z = 79",
+    "java": "int z = 79;"
+  },
+  {
+    "python": "b = data[3]",
+    "java": "int b = data.get(3);"
+  },
+  {
+    "python": "y = x / val",
+    "java": "int y = x / val;"
+  },
+  {
+    "python": "check(85)",
+    "java": "check(85);"
+  },
+  {
+    "python": "x = count - a",
+    "java": "int x = count - a;"
+  },
+  {
+    "python": "y += 96",
+    "java": "y += 96;"
+  },
+  {
+    "python": "count = j - total",
+    "java": "int count = j - total;"
+  },
+  {
+    "python": "if j < 65:\n    print(\"No\")",
+    "java": "if (j < 65) {\n    System.out.println(\"No\");\n}"
+  },
+  {
+    "python": "count = 0\nwhile count <= 12:\n    count += 1",
+    "java": "int count = 0;\nwhile (count <= 12) {\n    count++;\n}"
+  },
+  {
+    "python": "data.append(1)",
+    "java": "data.add(1);"
+  },
+  {
+    "python": "c = 0\nwhile c < 73:\n    c += 1",
+    "java": "int c = 0;\nwhile (c < 73) {\n    c++;\n}"
+  },
+  {
+    "python": "i = 20",
+    "java": "int i = 20;"
+  },
+  {
+    "python": "c = 0\nwhile c <= 87:\n    c += 1",
+    "java": "int c = 0;\nwhile (c <= 87) {\n    c++;\n}"
+  },
+  {
+    "python": "count = a % total",
+    "java": "int count = a % total;"
+  },
+  {
+    "python": "items.append(91)",
+    "java": "items.add(91);"
+  },
+  {
+    "python": "count = numbers[4]",
+    "java": "int count = numbers.get(4);"
+  },
+  {
+    "python": "process(9)",
+    "java": "process(9);"
+  },
+  {
+    "python": "c = arr[3]",
+    "java": "int c = arr.get(3);"
+  },
+  {
+    "python": "i -= 39",
+    "java": "i -= 39;"
+  },
+  {
+    "python": "b = numbers[3]",
+    "java": "int b = numbers.get(3);"
+  },
+  {
+    "python": "name = s + name",
+    "java": "String name = s + name;"
+  },
+  {
+    "python": "if a == 43:\n    print(\"Error\")",
+    "java": "if (a == 43) {\n    System.out.println(\"Error\");\n}"
+  },
+  {
+    "python": "y += 64",
+    "java": "y += 64;"
+  },
+  {
+    "python": "if b != 6:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (b != 6) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "if res == 62:\n    print(\"True\")",
+    "java": "if (res == 62) {\n    System.out.println(\"True\");\n}"
+  },
+  {
+    "python": "for i in range(73):\n    print(i)",
+    "java": "for (int i = 0; i < 73; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "x = b / total",
+    "java": "int x = b / total;"
+  },
+  {
+    "python": "for k in range(58):\n    print(k)",
+    "java": "for (int k = 0; k < 58; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "a -= 92",
+    "java": "a -= 92;"
+  },
+  {
+    "python": "res = 0\nwhile res < 15:\n    res += 1",
+    "java": "int res = 0;\nwhile (res < 15) {\n    res++;\n}"
+  },
+  {
+    "python": "msg = data + name",
+    "java": "String msg = data + name;"
+  },
+  {
+    "python": "z = numbers[1]",
+    "java": "int z = numbers.get(1);"
+  },
+  {
+    "python": "for k in range(13):\n    print(k)",
+    "java": "for (int k = 0; k < 13; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "if y < 28:\n    print(\"Ok\")",
+    "java": "if (y < 28) {\n    System.out.println(\"Ok\");\n}"
+  },
+  {
+    "python": "process(66)",
+    "java": "process(66);"
+  },
+  {
+    "python": "s = msg + data",
+    "java": "String s = msg + data;"
+  },
+  {
+    "python": "calc(59)",
+    "java": "calc(59);"
+  },
+  {
+    "python": "if res <= 44:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (res <= 44) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "if i > 52:\n    print(\"False\")",
+    "java": "if (i > 52) {\n    System.out.println(\"False\");\n}"
+  },
+  {
+    "python": "for k in range(47):\n    print(k)",
+    "java": "for (int k = 0; k < 47; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "numbers.append(45)",
+    "java": "numbers.add(45);"
+  },
+  {
+    "python": "count += 80",
+    "java": "count += 80;"
+  },
+  {
+    "python": "x = data[1]",
+    "java": "int x = data.get(1);"
+  },
+  {
+    "python": "for k in range(20):\n    print(k)",
+    "java": "for (int k = 0; k < 20; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "res = vals[2]",
+    "java": "int res = vals.get(2);"
+  },
+  {
+    "python": "res = numbers[3]",
+    "java": "int res = numbers.get(3);"
+  },
+  {
+    "python": "k = 11",
+    "java": "int k = 11;"
+  },
+  {
+    "python": "for j in range(47):\n    print(j)",
+    "java": "for (int j = 0; j < 47; j++) {\n    System.out.println(j);\n}"
+  },
+  {
+    "python": "k = 0\nwhile k < 21:\n    k += 1",
+    "java": "int k = 0;\nwhile (k < 21) {\n    k++;\n}"
+  },
+  {
+    "python": "text = line + line_2",
+    "java": "String text = line + line_2;"
+  },
+  {
+    "python": "if index < 19:\n    print(\"Yes\")",
+    "java": "if (index < 19) {\n    System.out.println(\"Yes\");\n}"
+  },
+  {
+    "python": "text = data + line",
+    "java": "String text = data + line;"
+  },
+  {
+    "python": "process(43)",
+    "java": "process(43);"
+  },
+  {
+    "python": "index = 75",
+    "java": "int index = 75;"
+  },
+  {
+    "python": "a = 0\nwhile a < 34:\n    a += 1",
+    "java": "int a = 0;\nwhile (a < 34) {\n    a++;\n}"
+  },
+  {
+    "python": "if y >= 98:\n    print(\"No\")",
+    "java": "if (y >= 98) {\n    System.out.println(\"No\");\n}"
+  },
+  {
+    "python": "if z != 83:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (z != 83) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "c = 89",
+    "java": "int c = 89;"
+  },
+  {
+    "python": "if index != 71:\n    print(\"Yes\")",
+    "java": "if (index != 71) {\n    System.out.println(\"Yes\");\n}"
+  },
+  {
+    "python": "for i in range(12):\n    print(i)",
+    "java": "for (int i = 0; i < 12; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "b *= 87",
+    "java": "b *= 87;"
+  },
+  {
+    "python": "update(35)",
+    "java": "update(35);"
+  },
+  {
+    "python": "if i == 27:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (i == 27) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "for i in range(27):\n    print(i)",
+    "java": "for (int i = 0; i < 27; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "total = 14",
+    "java": "int total = 14;"
+  },
+  {
+    "python": "z = items[0]",
+    "java": "int z = items.get(0);"
+  },
+  {
+    "python": "a += 74",
+    "java": "a += 74;"
+  },
+  {
+    "python": "c -= 67",
+    "java": "c -= 67;"
+  },
+  {
+    "python": "a = 0\nwhile a < 19:\n    a += 1",
+    "java": "int a = 0;\nwhile (a < 19) {\n    a++;\n}"
+  },
+  {
+    "python": "check(99)",
+    "java": "check(99);"
+  },
+  {
+    "python": "calc(73)",
+    "java": "calc(73);"
+  },
+  {
+    "python": "update(67)",
+    "java": "update(67);"
+  },
+  {
+    "python": "data = data + msg",
+    "java": "String data = data + msg;"
+  },
+  {
+    "python": "text = text + s",
+    "java": "String text = text + s;"
+  },
+  {
+    "python": "a = 0\nwhile a <= 98:\n    a += 1",
+    "java": "int a = 0;\nwhile (a <= 98) {\n    a++;\n}"
+  },
+  {
+    "python": "data = text + data",
+    "java": "String data = text + data;"
+  },
+  {
+    "python": "a = c - count",
+    "java": "int a = c - count;"
+  },
+  {
+    "python": "for i in range(40):\n    print(i)",
+    "java": "for (int i = 0; i < 40; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "res = 85",
+    "java": "int res = 85;"
+  },
+  {
+    "python": "for idx in range(74):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 74; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "b = 0\nwhile b < 53:\n    b += 1",
+    "java": "int b = 0;\nwhile (b < 53) {\n    b++;\n}"
+  },
+  {
+    "python": "c = a - count",
+    "java": "int c = a - count;"
+  },
+  {
+    "python": "if total >= 2:\n    print(\"Yes\")",
+    "java": "if (total >= 2) {\n    System.out.println(\"Yes\");\n}"
+  },
+  {
+    "python": "if y == 11:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (y == 11) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "b = y * count",
+    "java": "int b = y * count;"
+  },
+  {
+    "python": "total -= 78",
+    "java": "total -= 78;"
+  },
+  {
+    "python": "data = data + text",
+    "java": "String data = data + text;"
+  },
+  {
+    "python": "y = items[2]",
+    "java": "int y = items.get(2);"
+  },
+  {
+    "python": "y = vals[2]",
+    "java": "int y = vals.get(2);"
+  },
+  {
+    "python": "total = 0\nwhile total <= 63:\n    total += 1",
+    "java": "int total = 0;\nwhile (total <= 63) {\n    total++;\n}"
+  },
+  {
+    "python": "total = 0\nwhile total <= 19:\n    total += 1",
+    "java": "int total = 0;\nwhile (total <= 19) {\n    total++;\n}"
+  },
+  {
+    "python": "data.append(97)",
+    "java": "data.add(97);"
+  },
+  {
+    "python": "calc(95)",
+    "java": "calc(95);"
+  },
+  {
+    "python": "if a >= 94:\n    print(\"Error\")",
+    "java": "if (a >= 94) {\n    System.out.println(\"Error\");\n}"
+  },
+  {
+    "python": "i *= 45",
+    "java": "i *= 45;"
+  },
+  {
+    "python": "count = 0\nwhile count <= 73:\n    count += 1",
+    "java": "int count = 0;\nwhile (count <= 73) {\n    count++;\n}"
+  },
+  {
+    "python": "if i >= 63:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (i >= 63) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "c = arr[4]",
+    "java": "int c = arr.get(4);"
+  },
+  {
+    "python": "index = 0\nwhile index < 31:\n    index += 1",
+    "java": "int index = 0;\nwhile (index < 31) {\n    index++;\n}"
+  },
+  {
+    "python": "j = 0\nwhile j <= 89:\n    j += 1",
+    "java": "int j = 0;\nwhile (j <= 89) {\n    j++;\n}"
+  },
+  {
+    "python": "calc(71)",
+    "java": "calc(71);"
+  },
+  {
+    "python": "j *= 44",
+    "java": "j *= 44;"
+  },
+  {
+    "python": "for idx in range(98):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 98; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "if k >= 61:\n    print(\"Yes\")",
+    "java": "if (k >= 61) {\n    System.out.println(\"Yes\");\n}"
+  },
+  {
+    "python": "calc(16)",
+    "java": "calc(16);"
+  },
+  {
+    "python": "k = c + total",
+    "java": "int k = c + total;"
+  },
+  {
+    "python": "index += 57",
+    "java": "index += 57;"
+  },
+  {
+    "python": "if a <= 17:\n    print(\"False\")",
+    "java": "if (a <= 17) {\n    System.out.println(\"False\");\n}"
+  },
+  {
+    "python": "b *= 97",
+    "java": "b *= 97;"
+  },
+  {
+    "python": "if y > 8:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (y > 8) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "data = s + text",
+    "java": "String data = s + text;"
+  },
+  {
+    "python": "data.append(65)",
+    "java": "data.add(65);"
+  },
+  {
+    "python": "if z != 30:\n    print(\"Yes\")",
+    "java": "if (z != 30) {\n    System.out.println(\"Yes\");\n}"
+  },
+  {
+    "python": "if y < 69:\n    print(\"Ok\")",
+    "java": "if (y < 69) {\n    System.out.println(\"Ok\");\n}"
+  },
+  {
+    "python": "i *= 56",
+    "java": "i *= 56;"
+  },
+  {
+    "python": "c = 73",
+    "java": "int c = 73;"
+  },
+  {
+    "python": "b = arr[2]",
+    "java": "int b = arr.get(2);"
+  },
+  {
+    "python": "a = numbers[4]",
+    "java": "int a = numbers.get(4);"
+  },
+  {
+    "python": "calc(47)",
+    "java": "calc(47);"
+  },
+  {
+    "python": "for i in range(81):\n    print(i)",
+    "java": "for (int i = 0; i < 81; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "if val > 24:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (val > 24) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "check(64)",
+    "java": "check(64);"
+  },
+  {
+    "python": "a = 0\nwhile a < 75:\n    a += 1",
+    "java": "int a = 0;\nwhile (a < 75) {\n    a++;\n}"
+  },
+  {
+    "python": "k = res * y",
+    "java": "int k = res * y;"
+  },
+  {
+    "python": "if index >= 87:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (index >= 87) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "update(33)",
+    "java": "update(33);"
+  },
+  {
+    "python": "a = data[2]",
+    "java": "int a = data.get(2);"
+  },
+  {
+    "python": "z -= 8",
+    "java": "z -= 8;"
+  },
+  {
+    "python": "name = text + name",
+    "java": "String name = text + name;"
+  },
+  {
+    "python": "if i > 62:\n    print(\"Ok\")",
+    "java": "if (i > 62) {\n    System.out.println(\"Ok\");\n}"
+  },
+  {
+    "python": "if i > 45:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (i > 45) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "x = res * c",
+    "java": "int x = res * c;"
+  },
+  {
+    "python": "y = 0\nwhile y < 59:\n    y += 1",
+    "java": "int y = 0;\nwhile (y < 59) {\n    y++;\n}"
+  },
+  {
+    "python": "total = j + i",
+    "java": "int total = j + i;"
+  },
+  {
+    "python": "if x <= 33:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (x <= 33) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "total -= 42",
+    "java": "total -= 42;"
+  },
+  {
+    "python": "c += 73",
+    "java": "c += 73;"
+  },
+  {
+    "python": "if x < 97:\n    print(\"Error\")",
+    "java": "if (x < 97) {\n    System.out.println(\"Error\");\n}"
+  },
+  {
+    "python": "for i in range(52):\n    print(i)",
+    "java": "for (int i = 0; i < 52; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "x = 71",
+    "java": "int x = 71;"
+  },
+  {
+    "python": "i = 0\nwhile i < 12:\n    i += 1",
+    "java": "int i = 0;\nwhile (i < 12) {\n    i++;\n}"
+  },
+  {
+    "python": "if total >= 73:\n    print(\"True\")",
+    "java": "if (total >= 73) {\n    System.out.println(\"True\");\n}"
+  },
+  {
+    "python": "process(87)",
+    "java": "process(87);"
+  },
+  {
+    "python": "index = 0\nwhile index < 72:\n    index += 1",
+    "java": "int index = 0;\nwhile (index < 72) {\n    index++;\n}"
+  },
+  {
+    "python": "x = index % val",
+    "java": "int x = index % val;"
+  },
+  {
+    "python": "if y > 60:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (y > 60) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "update(20)",
+    "java": "update(20);"
+  },
+  {
+    "python": "if i == 13:\n    print(\"No\")",
+    "java": "if (i == 13) {\n    System.out.println(\"No\");\n}"
+  },
+  {
+    "python": "k = y % x",
+    "java": "int k = y % x;"
+  },
+  {
+    "python": "count = 86",
+    "java": "int count = 86;"
+  },
+  {
+    "python": "i -= 44",
+    "java": "i -= 44;"
+  },
+  {
+    "python": "res = 0\nwhile res <= 42:\n    res += 1",
+    "java": "int res = 0;\nwhile (res <= 42) {\n    res++;\n}"
+  },
+  {
+    "python": "if c < 83:\n    print(\"True\")",
+    "java": "if (c < 83) {\n    System.out.println(\"True\");\n}"
+  },
+  {
+    "python": "if a == 59:\n    print(\"True\")",
+    "java": "if (a == 59) {\n    System.out.println(\"True\");\n}"
+  },
+  {
+    "python": "name = data + text",
+    "java": "String name = data + text;"
+  },
+  {
+    "python": "if j <= 50:\n    print(\"True\")",
+    "java": "if (j <= 50) {\n    System.out.println(\"True\");\n}"
+  },
+  {
+    "python": "if i > 39:\n    print(\"False\")",
+    "java": "if (i > 39) {\n    System.out.println(\"False\");\n}"
+  },
+  {
+    "python": "val = 12",
+    "java": "int val = 12;"
+  },
+  {
+    "python": "i = arr[2]",
+    "java": "int i = arr.get(2);"
+  },
+  {
+    "python": "total = 0\nwhile total < 25:\n    total += 1",
+    "java": "int total = 0;\nwhile (total < 25) {\n    total++;\n}"
+  },
+  {
+    "python": "c = 0\nwhile c <= 43:\n    c += 1",
+    "java": "int c = 0;\nwhile (c <= 43) {\n    c++;\n}"
+  },
+  {
+    "python": "val = j / k",
+    "java": "int val = j / k;"
+  },
+  {
+    "python": "if b < 56:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (b < 56) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "index = x / total",
+    "java": "int index = x / total;"
+  },
+  {
+    "python": "arr.append(97)",
+    "java": "arr.add(97);"
+  },
+  {
+    "python": "if index > 28:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (index > 28) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "arr.append(71)",
+    "java": "arr.add(71);"
+  },
+  {
+    "python": "i = 0\nwhile i <= 82:\n    i += 1",
+    "java": "int i = 0;\nwhile (i <= 82) {\n    i++;\n}"
+  },
+  {
+    "python": "z -= 51",
+    "java": "z -= 51;"
+  },
+  {
+    "python": "vals.append(59)",
+    "java": "vals.add(59);"
+  },
+  {
+    "python": "val = 0\nwhile val < 51:\n    val += 1",
+    "java": "int val = 0;\nwhile (val < 51) {\n    val++;\n}"
+  },
+  {
+    "python": "if y == 22:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (y == 22) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "print(total)",
+    "java": "System.out.println(total);"
+  },
+  {
+    "python": "c = k / y",
+    "java": "int c = k / y;"
+  },
+  {
+    "python": "if c > 86:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (c > 86) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "numbers.append(11)",
+    "java": "numbers.add(11);"
+  },
+  {
+    "python": "if z < 100:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (z < 100) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "j = 0\nwhile j < 52:\n    j += 1",
+    "java": "int j = 0;\nwhile (j < 52) {\n    j++;\n}"
+  },
+  {
+    "python": "i = 28",
+    "java": "int i = 28;"
+  },
+  {
+    "python": "for k in range(54):\n    print(k)",
+    "java": "for (int k = 0; k < 54; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "arr.append(44)",
+    "java": "arr.add(44);"
+  },
+  {
+    "python": "i = val + j",
+    "java": "int i = val + j;"
+  },
+  {
+    "python": "msg = text + msg",
+    "java": "String msg = text + msg;"
+  },
+  {
+    "python": "i = 0\nwhile i <= 97:\n    i += 1",
+    "java": "int i = 0;\nwhile (i <= 97) {\n    i++;\n}"
+  },
+  {
+    "python": "if j != 41:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (j != 41) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "j = z - a",
+    "java": "int j = z - a;"
+  },
+  {
+    "python": "total = b * val",
+    "java": "int total = b * val;"
+  },
+  {
+    "python": "for idx in range(56):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 56; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "if total >= 4:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (total >= 4) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "res = numbers[5]",
+    "java": "int res = numbers.get(5);"
+  },
+  {
+    "python": "k = 0\nwhile k < 27:\n    k += 1",
+    "java": "int k = 0;\nwhile (k < 27) {\n    k++;\n}"
+  },
+  {
+    "python": "val = 92",
+    "java": "int val = 92;"
+  },
+  {
+    "python": "if j < 98:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (j < 98) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "if index == 41:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (index == 41) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "y = 0\nwhile y < 86:\n    y += 1",
+    "java": "int y = 0;\nwhile (y < 86) {\n    y++;\n}"
+  },
+  {
+    "python": "z = 0\nwhile z < 53:\n    z += 1",
+    "java": "int z = 0;\nwhile (z < 53) {\n    z++;\n}"
+  },
+  {
+    "python": "index = 45",
+    "java": "int index = 45;"
+  },
+  {
+    "python": "for idx in range(66):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 66; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "j = i % a",
+    "java": "int j = i % a;"
+  },
+  {
+    "python": "vals.append(67)",
+    "java": "vals.add(67);"
+  },
+  {
+    "python": "count *= 31",
+    "java": "count *= 31;"
+  },
+  {
+    "python": "res = 92",
+    "java": "int res = 92;"
+  },
+  {
+    "python": "total = vals[2]",
+    "java": "int total = vals.get(2);"
+  },
+  {
+    "python": "total = items[5]",
+    "java": "int total = items.get(5);"
+  },
+  {
+    "python": "text = msg + data",
+    "java": "String text = msg + data;"
+  },
+  {
+    "python": "i = numbers[2]",
+    "java": "int i = numbers.get(2);"
+  },
+  {
+    "python": "z = index + count",
+    "java": "int z = index + count;"
+  },
+  {
+    "python": "for k in range(60):\n    print(k)",
+    "java": "for (int k = 0; k < 60; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "x = res % index",
+    "java": "int x = res % index;"
+  },
+  {
+    "python": "y = vals[4]",
+    "java": "int y = vals.get(4);"
+  },
+  {
+    "python": "numbers.append(18)",
+    "java": "numbers.add(18);"
+  },
+  {
+    "python": "for j in range(34):\n    print(j)",
+    "java": "for (int j = 0; j < 34; j++) {\n    System.out.println(j);\n}"
+  },
+  {
+    "python": "for i in range(1):\n    print(i)",
+    "java": "for (int i = 0; i < 1; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "data.append(16)",
+    "java": "data.add(16);"
+  },
+  {
+    "python": "for idx in range(10):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 10; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "count = 47",
+    "java": "int count = 47;"
+  },
+  {
+    "python": "index = k / b",
+    "java": "int index = k / b;"
+  },
+  {
+    "python": "if k > 89:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (k > 89) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "calc(11)",
+    "java": "calc(11);"
+  },
+  {
+    "python": "if k < 26:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (k < 26) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "for j in range(77):\n    print(j)",
+    "java": "for (int j = 0; j < 77; j++) {\n    System.out.println(j);\n}"
+  },
+  {
+    "python": "if z > 95:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (z > 95) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "b = 2",
+    "java": "int b = 2;"
+  },
+  {
+    "python": "i = arr[5]",
+    "java": "int i = arr.get(5);"
+  },
+  {
+    "python": "total = 12",
+    "java": "int total = 12;"
+  },
+  {
+    "python": "vals.append(25)",
+    "java": "vals.add(25);"
+  },
+  {
+    "python": "if j != 75:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (j != 75) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "for k in range(48):\n    print(k)",
+    "java": "for (int k = 0; k < 48; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "vals.append(73)",
+    "java": "vals.add(73);"
+  },
+  {
+    "python": "items.append(49)",
+    "java": "items.add(49);"
+  },
+  {
+    "python": "val = vals[0]",
+    "java": "int val = vals.get(0);"
+  },
+  {
+    "python": "total += 55",
+    "java": "total += 55;"
+  },
+  {
+    "python": "for k in range(33):\n    print(k)",
+    "java": "for (int k = 0; k < 33; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "numbers.append(29)",
+    "java": "numbers.add(29);"
+  },
+  {
+    "python": "for j in range(86):\n    print(j)",
+    "java": "for (int j = 0; j < 86; j++) {\n    System.out.println(j);\n}"
+  },
+  {
+    "python": "a = 0\nwhile a <= 27:\n    a += 1",
+    "java": "int a = 0;\nwhile (a <= 27) {\n    a++;\n}"
+  },
+  {
+    "python": "process(35)",
+    "java": "process(35);"
+  },
+  {
+    "python": "val *= 20",
+    "java": "val *= 20;"
+  },
+  {
+    "python": "for idx in range(41):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 41; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "j = 0\nwhile j <= 60:\n    j += 1",
+    "java": "int j = 0;\nwhile (j <= 60) {\n    j++;\n}"
+  },
+  {
+    "python": "j = items[4]",
+    "java": "int j = items.get(4);"
+  },
+  {
+    "python": "for k in range(68):\n    print(k)",
+    "java": "for (int k = 0; k < 68; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "if val <= 40:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (val <= 40) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "c = 0\nwhile c <= 73:\n    c += 1",
+    "java": "int c = 0;\nwhile (c <= 73) {\n    c++;\n}"
+  },
+  {
+    "python": "j = numbers[2]",
+    "java": "int j = numbers.get(2);"
+  },
+  {
+    "python": "i = k - x",
+    "java": "int i = k - x;"
+  },
+  {
+    "python": "i = data[1]",
+    "java": "int i = data.get(1);"
+  },
+  {
+    "python": "if x < 30:\n    print(\"No\")",
+    "java": "if (x < 30) {\n    System.out.println(\"No\");\n}"
+  },
+  {
+    "python": "for j in range(83):\n    print(j)",
+    "java": "for (int j = 0; j < 83; j++) {\n    System.out.println(j);\n}"
+  },
+  {
+    "python": "k += 32",
+    "java": "k += 32;"
+  },
+  {
+    "python": "z -= 10",
+    "java": "z -= 10;"
+  },
+  {
+    "python": "j -= 13",
+    "java": "j -= 13;"
+  },
+  {
+    "python": "val = 29",
+    "java": "int val = 29;"
+  },
+  {
+    "python": "if count < 22:\n    print(\"No\")",
+    "java": "if (count < 22) {\n    System.out.println(\"No\");\n}"
+  },
+  {
+    "python": "vals.append(82)",
+    "java": "vals.add(82);"
+  },
+  {
+    "python": "for i in range(31):\n    print(i)",
+    "java": "for (int i = 0; i < 31; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "text = text + name",
+    "java": "String text = text + name;"
+  },
+  {
+    "python": "if c == 34:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (c == 34) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "for idx in range(15):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 15; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "if count <= 7:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (count <= 7) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "a = vals[4]",
+    "java": "int a = vals.get(4);"
+  },
+  {
+    "python": "a += 71",
+    "java": "a += 71;"
+  },
+  {
+    "python": "if count >= 20:\n    print(\"True\")",
+    "java": "if (count >= 20) {\n    System.out.println(\"True\");\n}"
+  },
+  {
+    "python": "if index == 8:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (index == 8) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "total = 91",
+    "java": "int total = 91;"
+  },
+  {
+    "python": "check(31)",
+    "java": "check(31);"
+  },
+  {
+    "python": "for idx in range(83):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 83; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "count = b * val",
+    "java": "int count = b * val;"
+  },
+  {
+    "python": "res = 8",
+    "java": "int res = 8;"
+  },
+  {
+    "python": "if i > 44:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (i > 44) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "if b < 83:\n    print(\"False\")",
+    "java": "if (b < 83) {\n    System.out.println(\"False\");\n}"
+  },
+  {
+    "python": "for k in range(100):\n    print(k)",
+    "java": "for (int k = 0; k < 100; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "if k < 78:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (k < 78) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "b = total + a",
+    "java": "int b = total + a;"
+  },
+  {
+    "python": "process(95)",
+    "java": "process(95);"
+  },
+  {
+    "python": "res = 0\nwhile res <= 39:\n    res += 1",
+    "java": "int res = 0;\nwhile (res <= 39) {\n    res++;\n}"
+  },
+  {
+    "python": "i = 0\nwhile i <= 21:\n    i += 1",
+    "java": "int i = 0;\nwhile (i <= 21) {\n    i++;\n}"
+  },
+  {
+    "python": "count = 0\nwhile count <= 75:\n    count += 1",
+    "java": "int count = 0;\nwhile (count <= 75) {\n    count++;\n}"
+  },
+  {
+    "python": "if res != 42:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (res != 42) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "data.append(51)",
+    "java": "data.add(51);"
+  },
+  {
+    "python": "check(95)",
+    "java": "check(95);"
+  },
+  {
+    "python": "val = numbers[0]",
+    "java": "int val = numbers.get(0);"
+  },
+  {
+    "python": "j = index % total",
+    "java": "int j = index % total;"
+  },
+  {
+    "python": "total = vals[3]",
+    "java": "int total = vals.get(3);"
+  },
+  {
+    "python": "x *= 38",
+    "java": "x *= 38;"
+  },
+  {
+    "python": "i = index * val",
+    "java": "int i = index * val;"
+  },
+  {
+    "python": "res = arr[3]",
+    "java": "int res = arr.get(3);"
+  },
+  {
+    "python": "if res != 74:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (res != 74) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "i = k + index",
+    "java": "int i = k + index;"
+  },
+  {
+    "python": "if val == 30:\n    print(\"True\")",
+    "java": "if (val == 30) {\n    System.out.println(\"True\");\n}"
+  },
+  {
+    "python": "y = 92",
+    "java": "int y = 92;"
+  },
+  {
+    "python": "y = 0\nwhile y <= 14:\n    y += 1",
+    "java": "int y = 0;\nwhile (y <= 14) {\n    y++;\n}"
+  },
+  {
+    "python": "if count <= 48:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (count <= 48) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "y = data[3]",
+    "java": "int y = data.get(3);"
+  },
+  {
+    "python": "numbers.append(67)",
+    "java": "numbers.add(67);"
+  },
+  {
+    "python": "if i >= 70:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (i >= 70) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "i = 75",
+    "java": "int i = 75;"
+  },
+  {
+    "python": "for j in range(13):\n    print(j)",
+    "java": "for (int j = 0; j < 13; j++) {\n    System.out.println(j);\n}"
+  },
+  {
+    "python": "for j in range(19):\n    print(j)",
+    "java": "for (int j = 0; j < 19; j++) {\n    System.out.println(j);\n}"
+  },
+  {
+    "python": "if count > 71:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (count > 71) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "index = j * a",
+    "java": "int index = j * a;"
+  },
+  {
+    "python": "msg = s + line",
+    "java": "String msg = s + line;"
+  },
+  {
+    "python": "count = total + z",
+    "java": "int count = total + z;"
+  },
+  {
+    "python": "check(40)",
+    "java": "check(40);"
+  },
+  {
+    "python": "j = vals[0]",
+    "java": "int j = vals.get(0);"
+  },
+  {
+    "python": "a = 21",
+    "java": "int a = 21;"
+  },
+  {
+    "python": "k = val % index",
+    "java": "int k = val % index;"
+  },
+  {
+    "python": "z = total / i",
+    "java": "int z = total / i;"
+  },
+  {
+    "python": "b = res / k",
+    "java": "int b = res / k;"
+  },
+  {
+    "python": "if count == 40:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (count == 40) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "name = line + data",
+    "java": "String name = line + data;"
+  },
+  {
+    "python": "c *= 60",
+    "java": "c *= 60;"
+  },
+  {
+    "python": "if index >= 59:\n    print(\"Yes\")",
+    "java": "if (index >= 59) {\n    System.out.println(\"Yes\");\n}"
+  },
+  {
+    "python": "k = 31",
+    "java": "int k = 31;"
+  },
+  {
+    "python": "for j in range(67):\n    print(j)",
+    "java": "for (int j = 0; j < 67; j++) {\n    System.out.println(j);\n}"
+  },
+  {
+    "python": "if c == 3:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (c == 3) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "b *= 29",
+    "java": "b *= 29;"
+  },
+  {
+    "python": "text = msg + text",
+    "java": "String text = msg + text;"
+  },
+  {
+    "python": "line = msg + data",
+    "java": "String line = msg + data;"
+  },
+  {
+    "python": "if res >= 85:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (res >= 85) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "items.append(83)",
+    "java": "items.add(83);"
+  },
+  {
+    "python": "if k == 89:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (k == 89) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "check(83)",
+    "java": "check(83);"
+  },
+  {
+    "python": "vals.append(56)",
+    "java": "vals.add(56);"
+  },
+  {
+    "python": "j = b % x",
+    "java": "int j = b % x;"
+  },
+  {
+    "python": "text = name + msg",
+    "java": "String text = name + msg;"
+  },
+  {
+    "python": "val = 100",
+    "java": "int val = 100;"
+  },
+  {
+    "python": "if res >= 47:\n    print(\"False\")",
+    "java": "if (res >= 47) {\n    System.out.println(\"False\");\n}"
+  },
+  {
+    "python": "msg = name + line",
+    "java": "String msg = name + line;"
+  },
+  {
+    "python": "s = text + msg",
+    "java": "String s = text + msg;"
+  },
+  {
+    "python": "if k != 7:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (k != 7) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "a = arr[0]",
+    "java": "int a = arr.get(0);"
+  },
+  {
+    "python": "if total == 96:\n    print(\"No\")",
+    "java": "if (total == 96) {\n    System.out.println(\"No\");\n}"
+  },
+  {
+    "python": "res -= 49",
+    "java": "res -= 49;"
+  },
+  {
+    "python": "c = 0\nwhile c < 5:\n    c += 1",
+    "java": "int c = 0;\nwhile (c < 5) {\n    c++;\n}"
+  },
+  {
+    "python": "if y <= 4:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (y <= 4) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "check(91)",
+    "java": "check(91);"
+  },
+  {
+    "python": "for i in range(41):\n    print(i)",
+    "java": "for (int i = 0; i < 41; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "if index >= 32:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (index >= 32) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "y = numbers[5]",
+    "java": "int y = numbers.get(5);"
+  },
+  {
+    "python": "total = 0\nwhile total < 52:\n    total += 1",
+    "java": "int total = 0;\nwhile (total < 52) {\n    total++;\n}"
+  },
+  {
+    "python": "for idx in range(4):\n    print(idx)",
+    "java": "for (int idx = 0; idx < 4; idx++) {\n    System.out.println(idx);\n}"
+  },
+  {
+    "python": "res = numbers[1]",
+    "java": "int res = numbers.get(1);"
+  },
+  {
+    "python": "res *= 32",
+    "java": "res *= 32;"
+  },
+  {
+    "python": "index += 43",
+    "java": "index += 43;"
+  },
+  {
+    "python": "j = val + i",
+    "java": "int j = val + i;"
+  },
+  {
+    "python": "vals.append(21)",
+    "java": "vals.add(21);"
+  },
+  {
+    "python": "b = a / val",
+    "java": "int b = a / val;"
+  },
+  {
+    "python": "x = 12",
+    "java": "int x = 12;"
+  },
+  {
+    "python": "msg = name + data",
+    "java": "String msg = name + data;"
+  },
+  {
+    "python": "if j > 95:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (j > 95) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "if j > 78:\n    print(\"No\")",
+    "java": "if (j > 78) {\n    System.out.println(\"No\");\n}"
+  },
+  {
+    "python": "a = 0\nwhile a <= 14:\n    a += 1",
+    "java": "int a = 0;\nwhile (a <= 14) {\n    a++;\n}"
+  },
+  {
+    "python": "index = 81",
+    "java": "int index = 81;"
+  },
+  {
+    "python": "z = 0\nwhile z < 3:\n    z += 1",
+    "java": "int z = 0;\nwhile (z < 3) {\n    z++;\n}"
+  },
+  {
+    "python": "if total < 95:\n    print(\"False\")",
+    "java": "if (total < 95) {\n    System.out.println(\"False\");\n}"
+  },
+  {
+    "python": "data.append(28)",
+    "java": "data.add(28);"
+  },
+  {
+    "python": "process(28)",
+    "java": "process(28);"
+  },
+  {
+    "python": "update(4)",
+    "java": "update(4);"
+  },
+  {
+    "python": "if j <= 15:\n    print(\"No\")",
+    "java": "if (j <= 15) {\n    System.out.println(\"No\");\n}"
+  },
+  {
+    "python": "for k in range(86):\n    print(k)",
+    "java": "for (int k = 0; k < 86; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "if b != 76:\n    print(\"Yes\")",
+    "java": "if (b != 76) {\n    System.out.println(\"Yes\");\n}"
+  },
+  {
+    "python": "val = c % b",
+    "java": "int val = c % b;"
+  },
+  {
+    "python": "if j <= 17:\n    print(\"Error\")",
+    "java": "if (j <= 17) {\n    System.out.println(\"Error\");\n}"
+  },
+  {
+    "python": "index = vals[3]",
+    "java": "int index = vals.get(3);"
+  },
+  {
+    "python": "a = 0\nwhile a <= 74:\n    a += 1",
+    "java": "int a = 0;\nwhile (a <= 74) {\n    a++;\n}"
+  },
+  {
+    "python": "if count == 68:\n    print(\"Yes\")",
+    "java": "if (count == 68) {\n    System.out.println(\"Yes\");\n}"
+  },
+  {
+    "python": "j = b - i",
+    "java": "int j = b - i;"
+  },
+  {
+    "python": "vals.append(53)",
+    "java": "vals.add(53);"
+  },
+  {
+    "python": "if j <= 88:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (j <= 88) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "numbers.append(32)",
+    "java": "numbers.add(32);"
+  },
+  {
+    "python": "z = vals[2]",
+    "java": "int z = vals.get(2);"
+  },
+  {
+    "python": "for k in range(61):\n    print(k)",
+    "java": "for (int k = 0; k < 61; k++) {\n    System.out.println(k);\n}"
+  },
+  {
+    "python": "count = data[2]",
+    "java": "int count = data.get(2);"
+  },
+  {
+    "python": "c = a - y",
+    "java": "int c = a - y;"
+  },
+  {
+    "python": "count = k * val",
+    "java": "int count = k * val;"
+  },
+  {
+    "python": "a = 91",
+    "java": "int a = 91;"
+  },
+  {
+    "python": "if val <= 18:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (val <= 18) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "res = i - total",
+    "java": "int res = i - total;"
+  },
+  {
+    "python": "check(80)",
+    "java": "check(80);"
+  },
+  {
+    "python": "for i in range(50):\n    print(i)",
+    "java": "for (int i = 0; i < 50; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "arr.append(20)",
+    "java": "arr.add(20);"
+  },
+  {
+    "python": "b = 0\nwhile b <= 95:\n    b += 1",
+    "java": "int b = 0;\nwhile (b <= 95) {\n    b++;\n}"
+  },
+  {
+    "python": "vals.append(22)",
+    "java": "vals.add(22);"
+  },
+  {
+    "python": "name = name + data",
+    "java": "String name = name + data;"
+  },
+  {
+    "python": "z = 0\nwhile z <= 61:\n    z += 1",
+    "java": "int z = 0;\nwhile (z <= 61) {\n    z++;\n}"
+  },
+  {
+    "python": "update(59)",
+    "java": "update(59);"
+  },
+  {
+    "python": "k = data[5]",
+    "java": "int k = data.get(5);"
+  },
+  {
+    "python": "vals.append(40)",
+    "java": "vals.add(40);"
+  },
+  {
+    "python": "count = 100",
+    "java": "int count = 100;"
+  },
+  {
+    "python": "b = j - y",
+    "java": "int b = j - y;"
+  },
+  {
+    "python": "b *= 86",
+    "java": "b *= 86;"
+  },
+  {
+    "python": "if k >= 81:\n    print(\"Ok\")",
+    "java": "if (k >= 81) {\n    System.out.println(\"Ok\");\n}"
+  },
+  {
+    "python": "a -= 29",
+    "java": "a -= 29;"
+  },
+  {
+    "python": "b = 0\nwhile b <= 62:\n    b += 1",
+    "java": "int b = 0;\nwhile (b <= 62) {\n    b++;\n}"
+  },
+  {
+    "python": "numbers.append(49)",
+    "java": "numbers.add(49);"
+  },
+  {
+    "python": "items.append(29)",
+    "java": "items.add(29);"
+  },
+  {
+    "python": "data.append(80)",
+    "java": "data.add(80);"
+  },
+  {
+    "python": "if j == 83:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (j == 83) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "if i < 16:\n    x = 1\nelse:\n    x = 0",
+    "java": "if (i < 16) {\n    x = 1;\n} else {\n    x = 0;\n}"
+  },
+  {
+    "python": "count = total * c",
+    "java": "int count = total * c;"
+  },
+  {
+    "python": "name = msg + line",
+    "java": "String name = msg + line;"
+  },
+  {
+    "python": "for i in range(95):\n    print(i)",
+    "java": "for (int i = 0; i < 95; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "i -= 62",
+    "java": "i -= 62;"
+  },
+  {
+    "python": "x = 0\nwhile x < 77:\n    x += 1",
+    "java": "int x = 0;\nwhile (x < 77) {\n    x++;\n}"
+  },
+  {
+    "python": "i += 72",
+    "java": "i += 72;"
+  },
+  {
+    "python": "for i in range(46):\n    print(i)",
+    "java": "for (int i = 0; i < 46; i++) {\n    System.out.println(i);\n}"
+  },
+  {
+    "python": "y = 3",
+    "java": "int y = 3;"
+  },
+  {
+    "python": "if i != 12:\n    print(\"True\")",
+    "java": "if (i != 12) {\n    System.out.println(\"True\");\n}"
+  },
+  {
+    "python": "j = 0\nwhile j < 30:\n    j += 1",
+    "java": "int j = 0;\nwhile (j < 30) {\n    j++;\n}"
+  },
+  {
+    "python": "z = 0\nwhile z < 36:\n    z += 1",
+    "java": "int z = 0;\nwhile (z < 36) {\n    z++;\n}"
+  },
+  {
+    "python": "total = numbers[5]",
+    "java": "int total = numbers.get(5);"
+  },
+  {
+    "python": "y = total + z",
+    "java": "int y = total + z;"
+  },
+  {
+    "python": "b = c / index",
+    "java": "int b = c / index;"
+  },
+  {
+    "python": "j = k - i",
+    "java": "int j = k - i;"
+  },
+  {
+    "python": "total = 0\nwhile total < 88:\n    total += 1",
+    "java": "int total = 0;\nwhile (total < 88) {\n    total++;\n}"
+  },
+  {
+    "python": "data.append(5)",
+    "java": "data.add(5);"
+  },
+  {
+    "python": "numbers.append(82)",
+    "java": "numbers.add(82);"
+  },
+  {
+    "python": "count = numbers[3]",
+    "java": "int count = numbers.get(3);"
+  },
+  {
+    "python": "numbers.append(24)",
+    "java": "numbers.add(24);"
+  }
+]

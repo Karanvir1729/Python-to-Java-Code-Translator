@@ -22,7 +22,7 @@ def parse_args():
     
     parser.add_argument("--model_name", type=str, default="Salesforce/codet5-small", help="Model checkpoint")
     parser.add_argument("--data_file", type=str, default="../../data/bigcodenet_pairs.json", help="Path to training data")
-    parser.add_argument("--output_dir", type=str, default="./codet5_fine_tuned", help="Output directory")
+    parser.add_argument("--output_dir", type=str, default="../../models/codet5_fine_tuned", help="Output directory")
     parser.add_argument("--epochs", type=int, default=10, help="Number of training epochs")
     parser.add_argument("--batch_size", type=int, default=8, help="Batch size per device")
     parser.add_argument("--lr", type=float, default=2e-5, help="Learning rate")

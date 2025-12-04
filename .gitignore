@@ -16,9 +16,11 @@ venv/
 *.bin
 *.safetensors
 *.h5
-bigcodenet_pairs.json
 bigcodenet_evaluation_results.csv
 
 # IDE
 .vscode/
 .idea/
+
+# Workspace
+*.code-workspace

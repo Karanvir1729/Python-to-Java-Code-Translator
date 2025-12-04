@@ -10,9 +10,10 @@ import tempfile
 from codebleu import calc_codebleu
 
 # Configuration
-MODEL_PATH = "./codet5_model/codet5_fine_tuned"
-DATA_PATH = "easy_code_pairs.json"
-OUTPUT_FILE = "easy_evaluation_results.csv"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "../../models/codet5_fine_tuned")
+DATA_PATH = os.path.join(BASE_DIR, "../../data/easy_code_pairs.json")
+OUTPUT_FILE = os.path.join(BASE_DIR, "../../results/easy_evaluation_results.csv")
 BASE_MODEL = "Salesforce/codet5-small"
 
 def load_model():

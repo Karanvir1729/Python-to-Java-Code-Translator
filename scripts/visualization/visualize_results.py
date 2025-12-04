@@ -4,8 +4,9 @@ import seaborn as sns
 import os
 
 # Configuration
-RESULTS_DIR = "."
-TABLES_DIR = "tables"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+RESULTS_DIR = os.path.join(BASE_DIR, "../../results")
+TABLES_DIR = os.path.join(BASE_DIR, "../../tables")
 EASY_FILE = "easy_evaluation_results.csv"
 ADVANCED_FILE = "advanced_evaluation_results.csv"
 BIGCODENET_FILE = "bigcodenet_evaluation_results.csv"

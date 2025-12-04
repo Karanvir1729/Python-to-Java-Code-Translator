@@ -10,10 +10,11 @@ from codebleu import calc_codebleu
 import random
 
 # Configuration
-MODEL_PATH = "./codet5_model/codet5_fine_tuned"
-BIGCODENET_PATH = "/Users/karanvirkhanna/BigCodeNet"
-PAIRS_FILE = os.path.join(BIGCODENET_PATH, "pairs.csv")
-OUTPUT_FILE = "bigcodenet_evaluation_results.csv"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "../../models/codet5_fine_tuned")
+# BIGCODENET_PATH = "/Users/karanvirkhanna/BigCodeNet" # Not needed if we point directly to the file
+PAIRS_FILE = os.path.join(BASE_DIR, "../../data/bigcodenet_pairs.json")
+OUTPUT_FILE = os.path.join(BASE_DIR, "../../results/bigcodenet_evaluation_results.csv")
 BASE_MODEL = "Salesforce/codet5-small"
 NUM_SAMPLES = 1050 # Slightly more than 1000 to be safe
 

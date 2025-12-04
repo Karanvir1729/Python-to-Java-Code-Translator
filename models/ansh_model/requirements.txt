@@ -1,7 +1,0 @@
-transformers
-torch
-sentencepiece
-pandas
-sacrebleu
-evaluate
-streamlit

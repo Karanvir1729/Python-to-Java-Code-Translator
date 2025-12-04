@@ -1,0 +1,4 @@
+Dataset,Samples,Compilation Rate (%),Avg CodeBLEU,Avg Syntax Match,Avg Dataflow Match
+Easy,5,100.0,0.0,0.0,0.0
+Advanced,20,20.0,0.0,0.0,0.0
+BigCodeNet,1050,7.809523809523809,0.0,0.0,0.0

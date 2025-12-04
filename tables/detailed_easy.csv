@@ -1,0 +1,91 @@
+python,reference,prediction,compiled,executed,codebleu,syntax_match,dataflow_match
+"print(""hello world"")","public class Main {
+    public static void main(String[] args) {
+        System.out.println(""hello world"");
+    }
+}","import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+		String s = br.readLine();
+
+		System.out.println(""hello world"");
+	}
+
+}",True,False,0.0,0.0,0.0
+"x = 10
+print(x)","public class Main {
+    public static void main(String[] args) {
+        int x = 10;
+        System.out.println(x);
+    }
+}","import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		System.out.println(n);
+	}
+}",True,False,0.0,0.0,0.0
+"a = 5
+b = 10
+print(a + b)","import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+        System.out.println(a + b);
+    }
+}","import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		System.out.println(a + b);
+	}
+}",True,False,0.0,0.0,0.0
+"if 5 > 3:
+    print(""yes"")","public class Main {
+    public static void main(String[] args) {
+        if (5 > 3) {
+            System.out.println(""yes"");
+        }
+    }
+}","import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		System.out.println(""yes"");
+	}
+}",True,False,0.0,0.0,0.0
+"for i in range(3):
+    print(i)","public class Main {
+    public static void main(String[] args) {
+        for (int i = 0; i < 3; i++) {
+            System.out.println(i);
+        }
+    }
+}","import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		for (int i = 0; i < 3; i++) {
+			System.out.println(i);
+		}
+	}
+}",True,False,0.0,0.0,0.0

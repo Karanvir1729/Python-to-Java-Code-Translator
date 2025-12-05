@@ -24,3 +24,5 @@ bigcodenet_evaluation_results.csv
 
 # Workspace
 *.code-workspace
+
+data/bigcodenet_pairs.json
